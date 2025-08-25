@@ -35,6 +35,13 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(5f)));
 
+    public static final RegistryObject<Block> MYTHRIL_ORE = registerBlock("mythril_ore",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(4)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(7f)));
+
     public static final RegistryObject<Block> SCULPT_ARDOISE = registerBlock("sculpt_ardoise",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.ROCK)
@@ -69,6 +76,72 @@ public class ModBlocks {
                     .harvestLevel(1)
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(3f)));
+
+    public static final RegistryObject<Block> DWARF_BRICK = registerBlock("dwarf_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> IRON_DWARF_BRICK = registerBlock("iron_dwarf_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> GOLD_DWARF_BRICK = registerBlock("gold_dwarf_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> DIAMOND_DWARF_BRICK = registerBlock("diamond_dwarf_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(6f)));
+
+    public static final RegistryObject<Block> RUBY_DWARF_BRICK = registerBlock("ruby_dwarf_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(6f)));
+
+    public static final RegistryObject<Block> SCHIST_BLOCK = registerBlock("schist_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> MYTHRIL_BLOCK = registerBlock("mythril_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(6f)));
+
+    public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+
+
 
 
 

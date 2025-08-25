@@ -1,15 +1,28 @@
 {
   "item.dwarfcivilisation.ruby": "Ruby",
+  "item.dwarfcivilisation.steel_ingots": "Steel Ingots",
+  "item.dwarfcivilisation.mythril_ingots": "Mythril Ingots",
+  "item.dwarfcivilisation.renforced_steel_ingots": "Renforced Steel Ingots",
   "item.dwarfcivilisation.azure": "Azure",
   "item.dwarfcivilisation.raw_ruby": "Raw Ruby",
   "item.dwarfcivilisation.raw_azure": "Raw Azure",
   "block.dwarfcivilisation.azure_ore": "Azure Ore",
   "block.dwarfcivilisation.ruby_ore": "Ruby Ore",
+  "block.dwarfcivilisation.mythril_ore": "Mythril Ore",
   "block.dwarfcivilisation.sculpt_ardoise": "Sculpt Ardoise",
   "block.dwarfcivilisation.ardoise_block": "Ardoise Block",
   "block.dwarfcivilisation.ardoise_brick": "Ardoise Brick",
   "block.dwarfcivilisation.ardoise_cube": "Ardoise Cube",
   "block.dwarfcivilisation.ardoise_pillar": "Ardoise Pillar",
+  "block.dwarfcivilisation.ruby_block": "Ruby Block",
+  "block.dwarfcivilisation.mythril_block": "Mythril Block",
+  "block.dwarfcivilisation.schist_block": "Schist Block",
+  "block.dwarfcivilisation.dwarf_brick": "Dwarf Brick",
+  "block.dwarfcivilisation.ruby_dwarf_brick": "Ruby Dwarf Brick",
+  "block.dwarfcivilisation.iron_dwarf_brick": "Iron Dwarf Brick",
+  "block.dwarfcivilisation.gold_dwarf_brick": "Gold Dwarf Brick",
+  "block.dwarfcivilisation.diamond_dwarf_brick": "Diamond Dwarf Brick",
+  "block.dwarfcivilisation.steel_block": "Steel Block",
   "itemGroup.dwarfcivilisationTab": "DwarfCivilisation"
 
 

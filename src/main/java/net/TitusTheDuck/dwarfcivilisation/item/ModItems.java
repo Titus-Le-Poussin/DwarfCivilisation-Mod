@@ -26,6 +26,15 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_AZURE = ITEMS.register("raw_azure",
             () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)));
 
+    public static final RegistryObject<Item> STEEL_INGOTS = ITEMS.register("steel_ingots",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)));
+
+    public static final RegistryObject<Item> MYTHRIL_INGOTS = ITEMS.register("mythril_ingots",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)));
+
+    public static final RegistryObject<Item> RENFORCED_STEEL_INGOTS = ITEMS.register("renforced_steel_ingots",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
