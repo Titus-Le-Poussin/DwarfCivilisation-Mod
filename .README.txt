@@ -1,0 +1,72 @@
+RUBIS
+rubis
+raw_rubis 		(cook and get rubis)
+rubis_block 		(craft with 9 rubis)
+rubis_ore 		(mining with iron_pickaxe)
+rubis_sword 		(2 rubis)
+
+AZURE
+azure
+raw_azure 		(cook and get azure)
+azure_ore 		(mining with iron_pickaxe)
+
+MYTHRIL
+mythril_ingots 		(cook with dwarf_furnace and lava)
+raw_mythril		(cook and get mythril_ingots)
+mythril_block		(9 mythril_ingots craft)
+mythril_ore        	(mining with steel_pickaxe)
+mythril_pickaxe		(1 purity_stick and 3 mythril_ingots)
+mythril_sword		(1 purity_stick and 2 mythril_ingots)
+
+ARDOISE
+ardoise_block		(craft = 4 ardoise_cube)
+ardoise_brick
+ardoise_cube		(spawn generation)
+ardoise_pillar
+sculpt_ardoise
+
+SCHIST
+schist_block		
+
+STEEL
+steel_helmet
+steel_chestplate
+steel_legging
+steel_boots
+steel_sword
+steel_pickaxe
+steel_forreur		(mining 9*9)
+steel_ingots
+steel_block
+
+RENFORCED_STEEL
+renforced_steel_boots
+renforced_steel_chestplate
+renforced_steel_helmet
+renforced_steel_legging
+renforced_steel_sword
+
+PURITY (no texture)
+purity_ore
+purity_fragment
+purity_stick
+
+DWARFBLOCK
+dwarf_furnace		(No texture)
+dwarf_brick		(craft = schist_block + ardoise_cube)
+iron_dwarf_brick	(craft = 1 dwarf_brick + 4 iron_nuggets)
+gold_dwarf_brick
+diamond_dwarf_brick
+rubis_dwarf_brick
+
+HAMMER			(use on dwarf_furnace) (mining 9*1)
+diamond_hammer  	
+rubacier_hammer
+steel_hammer
+
+RUBACIER
+rubacier_boots
+rubacier_chestplate
+rubacier_helmet
+rubacier_legging
+rubacier_sword
