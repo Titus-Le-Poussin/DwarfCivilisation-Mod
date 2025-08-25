@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sa ",
+    "as ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:schist_block"
+    },
+    "a": {
+      "item": "dwarfcivilisation:ardoise_cube"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:dwarf_brick",
+    "count": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:mythril_block"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:mythril_ingots",
+    "count": 9
+  }
+}

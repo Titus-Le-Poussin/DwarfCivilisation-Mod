@@ -20,17 +20,16 @@ mythril_pickaxe		(1 purity_stick and 3 mythril_ingots)
 mythril_sword		(1 purity_stick and 2 mythril_ingots)
 
 
-AMETHYST 		(no textured (purple, traditionnellement lié à la sagesse et la royauté))
-amethyst
-raw_amethyst 		
-amethyst_block 		
-amethyst_ore 		(mining with stone_pickaxe)
+AMETHYST 		(purple, traditionnellement lié à la sagesse et la royauté))
+amethyst 		
+amethyst_block 		(mining with stone_pickaxe)
+ 		
 
-ONYX			(no textured(noir brillant, mystique, parfait pour des runes))
+ONYX			(noir brillant, mystique, parfait pour des runes))
 onyx			(cook in dwarf_furnace)
 raw_onyx 		
 onyx_block 		
-onyx_ore 		(mining with iron_pickaxe)
+onyx_ardoise_ore 		(mining with iron_pickaxe)
 
 TOPAZ			(no textured(jaune-orangé, lié au feu et à la forge))
 topaz 			
@@ -49,9 +48,8 @@ sculpt_ardoise
 SCHIST
 schist_block		
 
-CARBONNE 		(no textured)
-carbonne_block
-carbonne_fragment
+CARBONNE 		
+carbone_powder		(cook a coal)
 
 
 STEEL
@@ -72,7 +70,7 @@ renforced_steel_helmet
 renforced_steel_legging
 renforced_steel_sword
 
-PURITY 			(no textured)
+PURITY 			
 purity_ore
 purity_fragment
 purity_stick
@@ -99,7 +97,8 @@ rubacier_sword
 
 OTHER
 mining_helmet		(craft = iron_helmet + 4 torch)
-
+tonnel			(pour faire de la bouffe)
+pint			
 
 
 
@@ -110,7 +109,52 @@ mining_helmet		(craft = iron_helmet + 4 torch)
 
 dwarf			(Villager varriant) (in Under village)
 
-war pig			(pig variant) (can be mount like a horse or pig) (can be armored)
+war pig			(pig variant) (can be mount like a horse or pig) (can be armored) drop ham
 
 mountain_goat 		(SheepEntity variant) (Jump high) (can be mount like a horse or pig)
+
+
+
+
+
+
+
+
+			Food
+
+dwarven_ale_bottle 	(apple ferment in a tonnel)
+ferment_apple		(apple in a tonnel with water)
+ferment_honney		(honney in a tonnel with water)
+molten_spirit_bottle	(lave diluée avec des lava_mushroom et de l'eau)
+lava_mushroom		(spawn on obsidian) (no textured)
+frostpore_mushroom	(spawn in cave)	(no textured)
+stone_hat_mushroom	(spawn in cave)	(no textured)
+big_brown_mushroom	(spawn in cave)
+cinderfungus_mushroom	(spawn next to water in cave) (no textured)
+goat_meat
+cooked_goat_meat
+light_mushroom		(spawn in cave)(no textured)
+light_mushroom_soup	(no textured)
+frostpore_pint		(pinte a base de frostpore avec water, empty_pint)
+wheat_beer_pint		(wheat, water, sugar, empty_pint)
+mush_beer_pint		(cinderfungus, water, sugar, empty_pint)
+lightning_beer_pint	(light_mushroom_soup, ferment_apple, empty_pint)
+hydromel_pint		(ferment_honney, water, empty_pint) 
+hydromel_bottle		(ferment_honney, empty_bottle)
+cheese_wheel 		(milk + tonnel) (no textured)
+cavern_pie		(bread 8 + steak 1) (no textured)
+miner_stew		(raw_rabbit +big_brown_mushroom + bread ) (no textured)
+goat_pie		(cooked_goat +  sugar + egg + milk + bread) (no textured)
+mush_bread		(stone_hat_mushroom + bread + wheat) (no textured)
+ham			(drop by pig) (no textured)
+cooked_ham		(no textured)
+honey_ham		(cooked_ham + honney)
+
+
+
+
+
+
+
+
 

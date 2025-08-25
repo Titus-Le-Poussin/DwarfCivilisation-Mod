@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:steel_block"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:steel_ingots",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:ruby_block"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:ruby",
+    "count": 9
+  }
+}

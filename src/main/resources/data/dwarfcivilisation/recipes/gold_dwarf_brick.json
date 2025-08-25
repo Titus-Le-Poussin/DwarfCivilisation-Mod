@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    "gdg",
+    " g "
+  ],
+  "key": {
+    "d": {
+      "item": "dwarfcivilisation:dwarf_brick"
+    },
+    "g": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:gold_dwarf_brick"
+  }
+}

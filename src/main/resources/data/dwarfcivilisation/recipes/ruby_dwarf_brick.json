@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ddd",
+    "did",
+    "ddd"
+  ],
+  "key": {
+    "d": {
+      "item": "dwarfcivilisation:dwarf_brick"
+    },
+    "i": {
+      "item": "dwarfcivilisation:ruby"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:ruby_dwarf_brick"
+  }
+}

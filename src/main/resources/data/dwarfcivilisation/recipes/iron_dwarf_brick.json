@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "idi",
+    " i "
+  ],
+  "key": {
+    "d": {
+      "item": "dwarfcivilisation:dwarf_brick"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:iron_dwarf_brick"
+  }
+}
