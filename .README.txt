@@ -1,14 +1,14 @@
 											ITEM
 RUBIS
-rubis
-raw_rubis 		(cook and get rubis)
-rubis_block 		(craft with 9 rubis)
-rubis_ore 		(mining with iron_pickaxe)
-rubis_sword 		(2 rubis)
+ruby
+raw_ruby 		)
+ruby_block 		
+ruby_ore 		(mining with iron_pickaxe)
+ruby_sword 		(2 rubis)
 
 AZURE
 azure
-raw_azure 		(cook and get azure)
+raw_azure 		(cook in dwarf_furnace)
 azure_ore 		(mining with iron_pickaxe)
 
 MYTHRIL
@@ -19,6 +19,26 @@ mythril_ore        	(mining with steel_pickaxe)
 mythril_pickaxe		(1 purity_stick and 3 mythril_ingots)
 mythril_sword		(1 purity_stick and 2 mythril_ingots)
 
+
+AMETHYST 		(no textured (purple, traditionnellement lié à la sagesse et la royauté))
+amethyst
+raw_amethyst 		
+amethyst_block 		
+amethyst_ore 		(mining with stone_pickaxe)
+
+ONYX			(no textured(noir brillant, mystique, parfait pour des runes))
+onyx			(cook in dwarf_furnace)
+raw_onyx 		
+onyx_block 		
+onyx_ore 		(mining with iron_pickaxe)
+
+TOPAZ			(no textured(jaune-orangé, lié au feu et à la forge))
+topaz 			
+raw_topaz		(cook in dwarf_furnace)
+topaz_block
+topaz_ore		(mining with iron_pickaxe)
+
+
 ARDOISE
 ardoise_block		(craft = 4 ardoise_cube)
 ardoise_brick
@@ -28,6 +48,11 @@ sculpt_ardoise
 
 SCHIST
 schist_block		
+
+CARBONNE 		(no textured)
+carbonne_block
+carbonne_fragment
+
 
 STEEL
 steel_helmet
@@ -47,18 +72,18 @@ renforced_steel_helmet
 renforced_steel_legging
 renforced_steel_sword
 
-PURITY (no texture)
+PURITY 			(no textured)
 purity_ore
 purity_fragment
 purity_stick
 
 DWARFBLOCK
-dwarf_furnace		(No texture)
+dwarf_furnace		(No textured)
 dwarf_brick		(craft = schist_block + ardoise_cube)
 iron_dwarf_brick	(craft = 1 dwarf_brick + 4 iron_nuggets)
 gold_dwarf_brick
 diamond_dwarf_brick
-rubis_dwarf_brick
+ruby_dwarf_brick
 
 HAMMER			(use on dwarf_furnace) (mining 9*1)
 diamond_hammer  	
@@ -71,6 +96,9 @@ rubacier_chestplate
 rubacier_helmet
 rubacier_legging
 rubacier_sword
+
+OTHER
+mining_helmet		(craft = iron_helmet + 4 torch)
 
 
 

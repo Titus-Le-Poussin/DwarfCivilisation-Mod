@@ -1,0 +1,16 @@
+{
+  "item.dwarfcivilisation.ruby": "Ruby",
+  "item.dwarfcivilisation.azure": "Azure",
+  "item.dwarfcivilisation.raw_ruby": "Raw Ruby",
+  "item.dwarfcivilisation.raw_azure": "Raw Azure",
+  "block.dwarfcivilisation.azure_ore": "Azure Ore",
+  "block.dwarfcivilisation.ruby_ore": "Ruby Ore",
+  "block.dwarfcivilisation.sculpt_ardoise": "Sculpt Ardoise",
+  "block.dwarfcivilisation.ardoise_block": "Ardoise Block",
+  "block.dwarfcivilisation.ardoise_brick": "Ardoise Brick",
+  "block.dwarfcivilisation.ardoise_cube": "Ardoise Cube",
+  "block.dwarfcivilisation.ardoise_pillar": "Ardoise Pillar",
+  "itemGroup.dwarfcivilisationTab": "DwarfCivilisation"
+
+
+}
