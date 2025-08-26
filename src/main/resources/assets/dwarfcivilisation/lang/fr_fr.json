@@ -6,6 +6,9 @@
   "item.dwarfcivilisation.azure": "Azure",
   "item.dwarfcivilisation.raw_ruby": "Ruby brut",
   "item.dwarfcivilisation.raw_azure": "Azure brut",
+  "item.dwarfcivilisation.cavern_cheese_slice": "Morceau de fromage des Caverne",
+  "item.dwarfcivilisation.lightning_beer_pint": "Pinte de bière Lumineuse",
+
   "block.dwarfcivilisation.azure_ore": "Minerai d'Azure",
   "block.dwarfcivilisation.ruby_ore": "Minerai de Ruby",
   "block.dwarfcivilisation.mythril_ore": "Minerai de Mythril",

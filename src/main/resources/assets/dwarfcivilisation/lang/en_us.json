@@ -6,6 +6,9 @@
   "item.dwarfcivilisation.azure": "Azure",
   "item.dwarfcivilisation.raw_ruby": "Raw Ruby",
   "item.dwarfcivilisation.raw_azure": "Raw Azure",
+  "item.dwarfcivilisation.cavern_cheese_slice": "Cavern Cheese Slice",
+  "item.dwarfcivilisation.lightning_beer_pint": "Light Beer Pint",
+
   "block.dwarfcivilisation.azure_ore": "Azure Ore",
   "block.dwarfcivilisation.ruby_ore": "Ruby Ore",
   "block.dwarfcivilisation.mythril_ore": "Mythril Ore",
@@ -23,6 +26,7 @@
   "block.dwarfcivilisation.gold_dwarf_brick": "Gold Dwarf Brick",
   "block.dwarfcivilisation.diamond_dwarf_brick": "Diamond Dwarf Brick",
   "block.dwarfcivilisation.steel_block": "Steel Block",
+
   "itemGroup.dwarfcivilisationTab": "DwarfCivilisation"
 
 
