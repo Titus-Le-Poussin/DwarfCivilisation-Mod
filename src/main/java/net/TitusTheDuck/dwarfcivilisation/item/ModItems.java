@@ -67,6 +67,24 @@ public class ModItems {
 
     public static final RegistryObject<Item> FERMENT_GOAT_MILK = ITEMS.register("ferment_goat_milk",
             () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.NAUSEA, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> FERMENT_MILK = ITEMS.register("ferment_milk",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.NAUSEA, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> GOAT_CHEESE_SLICE = ITEMS.register("goat_cheese_slice",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.5F).build())));
+
+    public static final RegistryObject<Item> GOAT_CHEESE_WHEEL = ITEMS.register("goat_cheese_wheel",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).build())));
+
+    public static final RegistryObject<Item> GOAT_MILK = ITEMS.register("goat_milk",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
                     .food(new Food.Builder().hunger(6).saturation(0.8F).build())));
 
 
@@ -74,7 +92,155 @@ public class ModItems {
 
 
 
-                            //Liquide
+                            //disches
+
+    public static final RegistryObject<Item> CAVERN_CAKE = ITEMS.register("cavern_cake",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).meat().effect(()-> new EffectInstance
+                            (Effects.LUCK, 20*1000, 0), 1).build())));
+
+    public static final RegistryObject<Item> CINTER_STEW = ITEMS.register("cinter_stew",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).meat().build())));
+
+    public static final RegistryObject<Item> CRISPY_POTATO_CAKE = ITEMS.register("crispy_potato_cake",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).meat().build())));
+
+    public static final RegistryObject<Item> FERMENT_APPLE = ITEMS.register("ferment_apple",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.3F).effect(()-> new EffectInstance
+                            (Effects.NAUSEA, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> FERMENT_HONEY = ITEMS.register("ferment_honey",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.3F).effect(()-> new EffectInstance
+                            (Effects.NAUSEA, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> FERMENT_POTATO= ITEMS.register("ferment_potato",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.3F).effect(()-> new EffectInstance
+                            (Effects.NAUSEA, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> GOAT_PIE= ITEMS.register("goat_pie",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(8).saturation(1F).meat().build())));
+
+    public static final RegistryObject<Item> HONEY_HAM= ITEMS.register("honey_ham",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).meat().build())));
+
+    public static final RegistryObject<Item> HONEY_PIE= ITEMS.register("honey_pie",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).build())));
+
+    public static final RegistryObject<Item> LIGHT_TART= ITEMS.register("light_tart",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.NIGHT_VISION, 20*500, 1), 1).build())));
+
+    public static final RegistryObject<Item> MINER_SOUP= ITEMS.register("miner_soup",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.INSTANT_HEALTH, 20*10, 0), 1).build())));
+
+    public static final RegistryObject<Item> MINER_STEW= ITEMS.register("miner_stew",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(8).saturation(1F).effect(()-> new EffectInstance
+                            (Effects.STRENGTH, 20*10, 0), 1).meat().build())));
+
+    public static final RegistryObject<Item> SALT = ITEMS.register("salt",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(1).saturation(0.3F).effect(()-> new EffectInstance
+                            (Effects.MINING_FATIGUE, 20*30, 0), 1).build())));
+
+    public static final RegistryObject<Item> SMOKED_GOAT= ITEMS.register("smoked_goat",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(1F).meat().effect(()-> new EffectInstance
+                            (Effects.FIRE_RESISTANCE, 20*400, 1), 1).build())));
+
+    public static final RegistryObject<Item> LIGHT_MUSHROOM_SOUP= ITEMS.register("light_mushroom_soup",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.NIGHT_VISION, 20*400, 1), 1).build())));
+
+    public static final RegistryObject<Item> MUSH_BREAD= ITEMS.register("mush_bread",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).build())));
+
+
+
+
+
+                            //MEAT
+
+    public static final RegistryObject<Item> COOKED_GOAT_MEAT= ITEMS.register("cooked_goat_meat",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(1F).meat().build())));
+
+    public static final RegistryObject<Item> COOKED_HAM= ITEMS.register("cooked_ham",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(1F).meat().build())));
+
+    public static final RegistryObject<Item> GOAT_MEAT= ITEMS.register("goat_meat",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(3).saturation(0.3F).meat().build())));
+
+    public static final RegistryObject<Item> HAM= ITEMS.register("ham",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(3).saturation(0.3F).meat().build())));
+
+    public static final RegistryObject<Item> SALT_HAM= ITEMS.register("salt_ham",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(4).saturation(0.5F).meat().build())));
+
+
+
+
+                            //Mushroom
+
+    public static final RegistryObject<Item> LIGHT_MUSHROOM= ITEMS.register("light_mushroom",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.4F).effect(()-> new EffectInstance
+                            (Effects.GLOWING, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> BIG_BROWN_MUSHROOM= ITEMS.register("big_brown_mushroom",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.4F).build())));
+
+    public static final RegistryObject<Item> CINDERFUNGUS_MUSHROOM= ITEMS.register("cinderfungus_mushroom",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.4F).effect(()-> new EffectInstance
+                            (Effects.NAUSEA, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> FERMENT_STONE_HAT_MUSHROOM= ITEMS.register("ferment_stone_hat_mushroom",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.4F).effect(()-> new EffectInstance
+                            (Effects.NAUSEA, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> FROSTPORE_MUSHROOM= ITEMS.register("frostpore_mushroom",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.4F).effect(()-> new EffectInstance
+                            (Effects.HASTE, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> LAVA_MUSHROOM= ITEMS.register("lava_mushroom",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.4F).effect(()-> new EffectInstance
+                            (Effects.FIRE_RESISTANCE, 20*30, 1), 1).build())));
+
+    public static final RegistryObject<Item> STONE_HAT_MUSHROOM= ITEMS.register("stone_hat_mushroom",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(2).saturation(0.4F).effect(()-> new EffectInstance
+                            (Effects.INSTANT_DAMAGE, 20, 1), 1).build())));
+
+
+
+
+
+
+
+
+    //Liquide
 
 
     public static final RegistryObject<Item> LIGHTNING_BEER_PINT = ITEMS.register("lightning_beer_pint",
