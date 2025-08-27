@@ -240,13 +240,73 @@ public class ModItems {
 
 
 
+
     //Liquide
 
 
     public static final RegistryObject<Item> LIGHTNING_BEER_PINT = ITEMS.register("lightning_beer_pint",
             () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
                     .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
-                            (Effects.NIGHT_VISION, 20*30, 0), 1).build())));
+                            (Effects.NIGHT_VISION, 20*600, 2), 1).build())));
+
+    public static final RegistryObject<Item> CAP_STONE_PINT = ITEMS.register("cap_stone_pint",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.LUCK, 20*30, 0), 1).build())));
+
+    public static final RegistryObject<Item> BUTTER_BEER_PINT = ITEMS.register("butter_beer_pint",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).build())));
+
+    public static final RegistryObject<Item> DWARVEN_ALE_BOTTLE = ITEMS.register("dwarven_ale_bottle",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.STRENGTH, 20*300, 2), 1).build())));
+
+    public static final RegistryObject<Item> DWARVEN_VODKA_PINT = ITEMS.register("dwarven_vodka_pint",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.STRENGTH, 20*500, 2), 1).build())));
+
+    public static final RegistryObject<Item> EMPTY_PINT = ITEMS.register("empty_pint",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)));
+
+    public static final RegistryObject<Item> FROSTPORE_PINT = ITEMS.register("frostpore_pint",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.GLOWING, 20*500, 2), 1).build())));
+
+    public static final RegistryObject<Item> GOAT_MILK_PINT = ITEMS.register("goat_milk_pint",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(5).saturation(0.5F).build())));
+
+    public static final RegistryObject<Item> HALLOWEER_PINT = ITEMS.register("halloweer_pint",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(8).saturation(0.8F).build())));
+
+    public static final RegistryObject<Item> HYDROMEL_BOTTLE = ITEMS.register("hydromel_bottle",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(8).saturation(0.8F).effect(()-> new EffectInstance
+                            (Effects.STRENGTH, 20*500, 2), 1).build())));
+
+    public static final RegistryObject<Item> HYDROMEL_PINT = ITEMS.register("hydromel_pint",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(6).saturation(0.5F).effect(()-> new EffectInstance
+                            (Effects.STRENGTH, 20*300, 1), 1).build())));
+
+    public static final RegistryObject<Item> MOLTEN_SPIRIT_BOTTLE = ITEMS.register("molten_spirit_bottle",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)
+                    .food(new Food.Builder().hunger(8).saturation(0.8F).build())));
+
+
+
+
+
+
+
+
+
+
 
 
     public static void register(IEventBus eventBus) {
