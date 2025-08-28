@@ -157,7 +157,7 @@ public class ModBlocks {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_GROUP)));
+                new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_BLOCK_GROUP)));
     }
 
     public static void register(IEventBus eventBus) {
