@@ -21,6 +21,12 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, DwarfCivilisationMod.MOD_ID);
 
+
+
+
+
+                            //Precieux
+
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.ROCK)
@@ -41,6 +47,96 @@ public class ModBlocks {
                     .harvestLevel(4)
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(7f)));
+
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> MYTHRIL_BLOCK = registerBlock("mythril_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(6f)));
+
+    public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> AMETHYST_BLOCK = registerBlock("amethyst_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> ONYX_BLOCK = registerBlock("onyx_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> PURITY_ORE = registerBlock("purity_ore",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> SILVER_PILLAR = registerBlock("silver_pillar",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+
+    public static final RegistryObject<Block> TOPAZ_BLOCK = registerBlock("topaz_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
+
+
+
+
+
+
+
+
+
+
+
+    //ardoise
 
     public static final RegistryObject<Block> SCULPT_ARDOISE = registerBlock("sculpt_ardoise",
             () -> new Block(AbstractBlock.Properties
@@ -77,6 +173,28 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(3f)));
 
+    public static final RegistryObject<Block> ONYX_ARDOISE_BRICK = registerBlock("onyx_ardoise_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(3f)));
+
+    public static final RegistryObject<Block> ONYX_ARDOISE_ORE = registerBlock("onyx_ardoise_ore",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(3f)));
+
+
+
+
+
+
+
+    //dwarf brique
+
     public static final RegistryObject<Block> DWARF_BRICK = registerBlock("dwarf_brick",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.ROCK)
@@ -112,6 +230,15 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(6f)));
 
+
+
+
+
+
+
+
+                    //Schist
+
     public static final RegistryObject<Block> SCHIST_BLOCK = registerBlock("schist_block",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.ROCK)
@@ -119,26 +246,157 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(4f)));
 
-    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
+    public static final RegistryObject<Block> CARBONE_SCHIST_BLOCK = registerBlock("carbone_schist_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> CARBONE_SCHIST_BRICK = registerBlock("carbone_schist_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> SMOOTH_CARBONE_SCHIST_BRICK = registerBlock("smooth_carbone_schist_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+
+
+
+
+
+
+    //Ember
+
+    public static final RegistryObject<Block> CRACKED_EMBER_BRICKS = registerBlock("cracked_ember_bricks",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+
+    public static final RegistryObject<Block> EMBER_BLOCK = registerBlock("ember_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+
+    public static final RegistryObject<Block> EMBER_BRICKS = registerBlock("ember_bricks",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> EMBER_PILLAR = registerBlock("ember_pillar",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> MOSS_EMBER_BRICKS = registerBlock("moss_ember_bricks",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> SILVEMBER_BRICK = registerBlock("silvember_brick",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.IRON)
                     .harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
-                    .hardnessAndResistance(5f)));
+                    .hardnessAndResistance(4f)));
 
-    public static final RegistryObject<Block> MYTHRIL_BLOCK = registerBlock("mythril_block",
+    public static final RegistryObject<Block> SMOOTH_EMBER_BRICKS = registerBlock("smooth_ember_bricks",
             () -> new Block(AbstractBlock.Properties
-                    .create(Material.IRON)
-                    .harvestLevel(3)
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
-                    .hardnessAndResistance(6f)));
+                    .hardnessAndResistance(4f)));
 
-    public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
+    public static final RegistryObject<Block> SMOOTH_EMBER_PILLAR = registerBlock("smooth_ember_pillar",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+
+
+
+
+
+
+    // SUNSTONE
+
+    public static final RegistryObject<Block> SUNSTONE_BLOCK = registerBlock("sunstone_block",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> SUNSTONE_BRICK = registerBlock("sunstone_brick",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> SUNSTONE_PILLAR = registerBlock("sunstone_pillar",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> SUNSTONE_PURITY_SCULT = registerBlock("sunstone_purity_sculpt",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.IRON)
                     .harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
-                    .hardnessAndResistance(5f)));
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> SUNSTONE_TOPAZ_BRICKS = registerBlock("sunstone_topaz_bricks",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+
+
+
+
+
+    public static final RegistryObject<Block> MOSSY_SUNSTONE_BRICKS = registerBlock("mossy_sunstone_bricks",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+    public static final RegistryObject<Block> SMOOTH_SUNSTONE_BRICKS = registerBlock("smooth_sunstone_bricks",
+            () -> new Block(AbstractBlock.Properties
+                    .create(Material.ROCK)
+                    .harvestLevel(1)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(4f)));
+
+
+
 
 
 

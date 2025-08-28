@@ -18,26 +18,85 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, DwarfCivilisationMod.MOD_ID);
 
 
+
+                                //Item
+
+
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
-            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_BLOCK_GROUP)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
     public static final RegistryObject<Item> AZURE = ITEMS.register("azure",
-            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_BLOCK_GROUP)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
     public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
-            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_BLOCK_GROUP)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
     public static final RegistryObject<Item> RAW_AZURE = ITEMS.register("raw_azure",
-            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_BLOCK_GROUP)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
     public static final RegistryObject<Item> STEEL_INGOTS = ITEMS.register("steel_ingots",
-            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_BLOCK_GROUP)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
     public static final RegistryObject<Item> MYTHRIL_INGOTS = ITEMS.register("mythril_ingots",
-            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_BLOCK_GROUP)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
     public static final RegistryObject<Item> RENFORCED_STEEL_INGOTS = ITEMS.register("renforced_steel_ingots",
-            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_BLOCK_GROUP)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> CARBONE_POWDER = ITEMS.register("carbone_powder",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> EMBER_BRICK = ITEMS.register("ember_brick",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> ONYX = ITEMS.register("onyx",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> PURITY_FRAGMENT = ITEMS.register("purity_fragment",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> PURITY_STICK = ITEMS.register("purity_stick",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RAW_EMBER = ITEMS.register("raw_ember",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RAW_MYTHRIL = ITEMS.register("raw_mythril",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RAW_ONYX = ITEMS.register("raw_onyx",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RAW_TOPAZ = ITEMS.register("raw_topaz",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> TOPAZ = ITEMS.register("topaz",
+            () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     // bouffe

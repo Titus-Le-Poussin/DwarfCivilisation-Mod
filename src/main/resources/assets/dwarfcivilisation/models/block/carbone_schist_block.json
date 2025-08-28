@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dwarfcivilisation:block/carbone_schist_block"
+  }
+}
