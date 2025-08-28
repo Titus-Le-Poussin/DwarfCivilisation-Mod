@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:purity_fragment"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:purity_stick"
+  }
+}

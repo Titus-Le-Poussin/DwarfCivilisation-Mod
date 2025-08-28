@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:amethyst_block"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:amethyst",
+    "count": 9
+  }
+}

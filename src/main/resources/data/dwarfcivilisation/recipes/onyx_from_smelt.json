@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:raw_onyx"
+  },
+  "result": "dwarfcivilisation:onyx",
+  "experience": 5.0,
+  "cookingtime": 400
+}

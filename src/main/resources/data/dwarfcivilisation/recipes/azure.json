@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:raw_azure"
+  },
+  "result": "dwarfcivilisation:azure",
+  "experience": 1.0,
+  "cookingtime": 400
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:raw_mythril"
+  },
+  "result": "dwarfcivilisation:mythril_ingots",
+  "experience": 1.0,
+  "cookingtime": 500
+}

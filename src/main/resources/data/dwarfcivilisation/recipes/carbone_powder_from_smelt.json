@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "minecraft:coal"
+  },
+  "result": "dwarfcivilisation:carbone_powder",
+  "experience": 1.0,
+  "cookingtime": 100
+}

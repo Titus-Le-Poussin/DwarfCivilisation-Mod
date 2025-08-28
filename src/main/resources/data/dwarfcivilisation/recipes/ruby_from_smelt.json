@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:raw_ruby"
+  },
+  "result": "dwarfcivilisation:ruby",
+  "experience": 1.0,
+  "cookingtime": 400
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:purity_ore"
+  },
+  "result": "dwarfcivilisation:purity_fragment",
+  "experience": 4.0,
+  "cookingtime": 240
+}

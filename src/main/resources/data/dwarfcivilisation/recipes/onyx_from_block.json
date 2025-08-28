@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:onyx_block"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:onyx",
+    "count": 9
+  }
+}

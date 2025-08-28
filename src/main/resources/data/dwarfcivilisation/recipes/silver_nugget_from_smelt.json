@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:raw_silver"
+  },
+  "result": "dwarfcivilisation:silver_nugget",
+  "experience": 1.0,
+  "cookingtime": 200
+}
