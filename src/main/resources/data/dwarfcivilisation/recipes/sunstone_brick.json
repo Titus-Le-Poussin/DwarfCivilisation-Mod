@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ss ",
+    "ss ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:sunstone_block"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:sunstone_brick",
+    "count": 4
+  }
+}

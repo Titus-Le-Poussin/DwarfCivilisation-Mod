@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " I#",
+    " #I"
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:carbone_powder"
+    },
+    "I":{
+      "item": "dwarfcivilisation:schist_block"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:carbone_schist_block",
+    "count": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s  ",
+    "s  ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:smooth_sunstone_bricks"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:sunstone_pillar",
+    "count": 4
+  }
+}

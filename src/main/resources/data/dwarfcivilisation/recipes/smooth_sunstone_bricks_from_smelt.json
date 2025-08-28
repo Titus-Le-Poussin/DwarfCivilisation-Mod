@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:sunstone_bricks"
+  },
+  "result": "dwarfcivilisation:smooth_sunstone_bricks",
+  "experience": 0.0,
+  "cookingtime": 150
+}

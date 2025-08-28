@@ -305,7 +305,7 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(4f)));
 
-    public static final RegistryObject<Block> MOSS_EMBER_BRICKS = registerBlock("moss_ember_bricks",
+    public static final RegistryObject<Block> MOSSY_EMBER_BRICKS = registerBlock("mossy_ember_bricks",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.ROCK)
                     .harvestLevel(1)

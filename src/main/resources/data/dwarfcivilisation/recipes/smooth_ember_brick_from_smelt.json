@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:ember_bricks"
+  },
+  "result": "dwarfcivilisation:smooth_ember_bricks",
+  "experience": 0.0,
+  "cookingtime": 100
+}

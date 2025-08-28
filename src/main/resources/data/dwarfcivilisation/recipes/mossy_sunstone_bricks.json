@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "sz ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:sunstone_bricks"
+    },
+      "z": {
+        "item": "minecraft:oak_leaves"
+      }
+  },
+  "result": {
+    "item": "dwarfcivilisation:mossy_sunstone_bricks"
+  }
+}

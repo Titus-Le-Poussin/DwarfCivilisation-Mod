@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " s ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:ember_bricks"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:ember_pillar",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    "gdg",
+    " g "
+  ],
+  "key": {
+    "d": {
+      "item": "dwarfcivilisation:silver_nugget"
+    },
+    "g": {
+      "item": "minecraft:ember_bricks"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:silvember_brick"
+  }
+}

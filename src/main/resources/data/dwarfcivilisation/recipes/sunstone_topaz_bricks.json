@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "as ",
+    "sa ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:sunstone_block"
+    },
+    "a": {
+      "item": "dwarfcivilisation:topaz_block"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:sunstone_topaz_bricks",
+    "count": 4
+  }
+}

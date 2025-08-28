@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "dwarfcivilisation:carbone_schist_brick"
+  },
+  "result": "dwarfcivilisation:smooth_carbone_schist_brick",
+  "experience": 0.0,
+  "cookingtime": 100
+}
