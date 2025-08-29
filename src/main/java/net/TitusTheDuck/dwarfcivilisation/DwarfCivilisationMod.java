@@ -2,6 +2,7 @@ package net.TitusTheDuck.dwarfcivilisation;
 
 import net.TitusTheDuck.dwarfcivilisation.block.ModBlocks;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
+import net.TitusTheDuck.dwarfcivilisation.tileentity.ModTileEntities;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,6 +38,7 @@ public class DwarfCivilisationMod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModTileEntities.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading

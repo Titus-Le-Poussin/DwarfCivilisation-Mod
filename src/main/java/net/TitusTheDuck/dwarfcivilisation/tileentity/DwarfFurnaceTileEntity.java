@@ -3,6 +3,8 @@ package net.TitusTheDuck.dwarfcivilisation.tileentity;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
+import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.minecraft.block.BlockState;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -28,6 +30,10 @@ public class DwarfFurnaceTileEntity extends TileEntity {
     public DwarfFurnaceTileEntity(TileEntityType<?> tileEntityTypeIn) {
         super(tileEntityTypeIn);
     }
+
+    public DwarfFurnaceTileEntity() {
+        this(ModTileEntities.DWARF_FURNACE_TILE.get());
+    }
     
         @Override
         public void read(BlockState state, CompoundNBT nbt) {
@@ -46,7 +52,6 @@ public class DwarfFurnaceTileEntity extends TileEntity {
 
     private ItemStackHandler createHandler() {
         return new ItemStackHandler(3) {
-
             @Override
             protected void onContentsChanged(int slot) {
                 markDirty();
@@ -54,29 +59,45 @@ public class DwarfFurnaceTileEntity extends TileEntity {
             @Override
             public boolean isItemValid(int slot, ItemStack stack) {
                 switch (slot) {
-                    case 1: return stack.getItem() == Items.LAVA_BUCKET;
-                    default: return false;
-
+                    case 1:
+                        return stack.getItem() == Items.LAVA_BUCKET;
+                    default:
+                        return false;
                 }
-                @Nonnull
-                @Override
-                public ItemStack insertItem(int slot, @Nonnull ItemStack stack, boolean simulate) {
-                    if (slot == 1 && stack.getItem() != Items.LAVA_BUCKET) {
-                        return stack;
-                    }
+            }
+            @Nonnull
+            @Override
+            public ItemStack insertItem(int slot, @Nonnull ItemStack stack, boolean simulate) {
+                if (slot == 1 && stack.getItem() != Items.LAVA_BUCKET) {
+                    return stack;
+                }
                 return super.insertItem(slot, stack, simulate);
             }
         };
     }
-}
 
     @Nonnull
     @Override
     public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> cap, @Nullable Direction side) {
-
         if (cap == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY) {
             return handler.cast();
         }
         return super.getCapability(cap, side);
     }
+
+    public void DwarfFurnaceHasStruck() {
+        boolean hasFocusInFirstSlot = this.itemHandler.getStackInSlot(0).getCount() > 0
+                && this.itemHandler.getStackInSlot(0).getItem() == Items.IRON_INGOT;
+        boolean hasLavaInSecondSlot = this.itemHandler.getStackInSlot(1).getCount() > 0
+                && this.itemHandler.getStackInSlot(1).getItem() == Items.LAVA_BUCKET;
+
+        if (hasFocusInFirstSlot && hasLavaInSecondSlot) {
+            this.itemHandler.getStackInSlot(0).shrink(1);
+            this.itemHandler.getStackInSlot(1).shrink(1);
+            this.itemHandler.insertItem(2, new ItemStack(ModItems.SILVER_NUGGET.get(), 1), false);
+        }
+    }
 }
+        
+
+

@@ -29,8 +29,8 @@ public class ModBlocks {
                         //special block
 
         public static final RegistryObject<Block> DWARF_FURNACE = registerBlock("dwarf_furnace",
-                () -> new DwarfFurnaceBlock(AbstractBlock.Properties
-                        .create(Material.ROCK)
+                () -> new Block(AbstractBlock.Properties
+                        .create(Material.IRON)
                         .harvestLevel(2)
                         .harvestTool(ToolType.PICKAXE).setRequiresTool()
                         .hardnessAndResistance(5f)));
