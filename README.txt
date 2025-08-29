@@ -186,6 +186,15 @@ mossy_sunstone_bricks_slab
 
 dwarf			(Villager varriant) (in Under village)
 
+idle anim
+air anim
+mine anim 
+attack anim
+
+
+
+
+
 war pig			(pig variant) (can be mount like a horse or pig) (can be armored) drop ham
 
 mountain_goat 		(SheepEntity variant) (Jump high) (can be mount like a horse or pig)

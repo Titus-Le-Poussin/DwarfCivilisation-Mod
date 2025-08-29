@@ -13,6 +13,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.TitusTheDuck.dwarfcivilisation.block.custom.DwarfFurnaceBlock;
+
 
 import java.util.function.Supplier;
 
@@ -20,6 +22,18 @@ public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, DwarfCivilisationMod.MOD_ID);
+
+
+
+
+                        //special block
+
+        public static final RegistryObject<Block> DWARF_FURNACE = registerBlock("dwarf_furnace",
+                () -> new DwarfFurnaceBlock(AbstractBlock.Properties
+                        .create(Material.ROCK)
+                        .harvestLevel(2)
+                        .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                        .hardnessAndResistance(5f)));
 
 
 
