@@ -117,6 +117,8 @@
   "block.dwarfcivilisation.sunstone_topaz_bricks": "Briques de pierre solaire et topaze",
   "block.dwarfcivilisation.mossy_sunstone_bricks": "Briques de pierre solaire moussues",
   "block.dwarfcivilisation.smooth_sunstone_bricks": "Briques de pierre solaire lisses",
+  "block.dwarfcivilisation.dwarf_furnace": "Four Nain",
+  "screen.dwarfcivilisation.dwarf_furnace": "Four Nain",
   "itemGroup.DwarfBlockTab": "Dwarf Block",
   "itemGroup.DwarfItemTab": "Dwarf Item",
   "itemGroup.DwarfFoodTab": "Dwarf Food"

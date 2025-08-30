@@ -61,8 +61,11 @@ public class DwarfFurnaceTileEntity extends TileEntity {
                 switch (slot) {
                     case 1:
                         return stack.getItem() == Items.LAVA_BUCKET;
+                    case 0:
+                        return stack.getItem() == Items.IRON_INGOT; 
                     default:
                         return false;
+
                 }
             }
             @Nonnull

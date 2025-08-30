@@ -3,9 +3,11 @@ package net.TitusTheDuck.dwarfcivilisation;
 import net.TitusTheDuck.dwarfcivilisation.block.ModBlocks;
 import net.TitusTheDuck.dwarfcivilisation.container.ModContainers;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
+import net.TitusTheDuck.dwarfcivilisation.screen.DwarfFurnaceScreen;
 import net.TitusTheDuck.dwarfcivilisation.tileentity.ModTileEntities;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.gui.ScreenManager;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -62,7 +64,8 @@ public class DwarfCivilisationMod
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        // do something that can only be done on the client
+        ScreenManager.registerFactory(ModContainers.DWARF_FURNACE_CONTAINER.get(),
+                DwarfFurnaceScreen::new);
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

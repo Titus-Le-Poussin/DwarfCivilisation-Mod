@@ -121,6 +121,8 @@
   "block.dwarfcivilisation.sunstone_topaz_bricks": "Sunstone Topaz Bricks",
   "block.dwarfcivilisation.mossy_sunstone_bricks": "Mossy Sunstone Bricks",
   "block.dwarfcivilisation.smooth_sunstone_bricks": "Smooth Sunstone Bricks",
+  "block.dwarfcivilisation.dwarf_furnace": "Dwarf Furnace",
+  "screen.dwarfcivilisation.dwarf_furnace": "Dwarf Furnace",
 
   "itemGroup.DwarfBlockTab": "Dwarf Block",
   "itemGroup.DwarfItemTab": "Dwarf Item",
