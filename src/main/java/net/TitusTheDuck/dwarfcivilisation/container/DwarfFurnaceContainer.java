@@ -36,9 +36,9 @@ public class DwarfFurnaceContainer extends Container {
 
         if(tileEntity != null) {
             tileEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(h -> {
-                addSlot(new SlotItemHandler(h, 0, 26, 10 ));
-                addSlot(new SlotItemHandler(h, 1, 26, 43 ));
-                addSlot(new SlotItemHandler(h, 2, 97, 26 ));
+                addSlot(new SlotItemHandler(h, 0, 61, 36 ));
+                addSlot(new SlotItemHandler(h, 1, 24, 36 ));
+                addSlot(new SlotItemHandler(h, 2, 110, 45 ));
             });
 
         }

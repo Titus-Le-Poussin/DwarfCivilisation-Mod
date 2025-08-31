@@ -12,7 +12,7 @@ import net.minecraft.util.text.ITextComponent;
 public class DwarfFurnaceScreen extends ContainerScreen<DwarfFurnaceContainer> {
 
     private final ResourceLocation GUI = new ResourceLocation(DwarfCivilisationMod.MOD_ID,
-            "textures/gui/tile_entity_texture_dwarf_furnace1.png");
+            "textures/gui/new_tile_dwarf_furnace.png");
 
     public DwarfFurnaceScreen(DwarfFurnaceContainer p_i51105_1_, PlayerInventory p_i51105_2_, ITextComponent p_i51105_3_) {
         super(p_i51105_1_, p_i51105_2_, p_i51105_3_);

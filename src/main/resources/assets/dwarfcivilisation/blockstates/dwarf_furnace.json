@@ -1,5 +1,9 @@
 {
   "variants" : {
-    "": { "model":  "dwarfcivilisation:block/customs/dwarf_furnace"}
+    "facing=north": { "model": "dwarfcivilisation:block/customs/dwarf_furnace_north" },
+    "facing=south": { "model": "dwarfcivilisation:block/customs/dwarf_furnace_south" },
+    "facing=west":  { "model": "dwarfcivilisation:block/customs/dwarf_furnace_west" },
+    "facing=east":  { "model": "dwarfcivilisation:block/customs/dwarf_furnace_east" }
+
   }
 }

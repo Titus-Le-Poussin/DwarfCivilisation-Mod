@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "dwarfcivilisation:block/customs/dwarf_furnace",
   "textures": {
     "layer0": "dwarfcivilisation:block/customs/dwarf_furnace"
   }

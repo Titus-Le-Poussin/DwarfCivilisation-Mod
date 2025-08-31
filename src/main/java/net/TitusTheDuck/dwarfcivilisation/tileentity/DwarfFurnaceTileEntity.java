@@ -59,10 +59,10 @@ public class DwarfFurnaceTileEntity extends TileEntity {
             @Override
             public boolean isItemValid(int slot, ItemStack stack) {
                 switch (slot) {
+                    case 0:
+                        return stack.getItem() == Items.IRON_INGOT;
                     case 1:
                         return stack.getItem() == Items.LAVA_BUCKET;
-                    case 0:
-                        return stack.getItem() == Items.IRON_INGOT; 
                     default:
                         return false;
 
@@ -71,6 +71,9 @@ public class DwarfFurnaceTileEntity extends TileEntity {
             @Nonnull
             @Override
             public ItemStack insertItem(int slot, @Nonnull ItemStack stack, boolean simulate) {
+                if (slot == 0 && stack.getItem() != Items.IRON_INGOT) {
+                    return stack;
+                }
                 if (slot == 1 && stack.getItem() != Items.LAVA_BUCKET) {
                     return stack;
                 }
@@ -89,12 +92,13 @@ public class DwarfFurnaceTileEntity extends TileEntity {
     }
 
     public void DwarfFurnaceHasStruck() {
-        boolean hasFocusInFirstSlot = this.itemHandler.getStackInSlot(0).getCount() > 0
+        System.out.println("Recette tentée : slot0=" + this.itemHandler.getStackInSlot(0) + ", slot1=" + this.itemHandler.getStackInSlot(1));
+        boolean hasironInFirstSlot = this.itemHandler.getStackInSlot(0).getCount() > 0
                 && this.itemHandler.getStackInSlot(0).getItem() == Items.IRON_INGOT;
-        boolean hasLavaInSecondSlot = this.itemHandler.getStackInSlot(1).getCount() > 0
+        boolean haslavaInSecondSlot = this.itemHandler.getStackInSlot(1).getCount() > 0
                 && this.itemHandler.getStackInSlot(1).getItem() == Items.LAVA_BUCKET;
 
-        if (hasFocusInFirstSlot && hasLavaInSecondSlot) {
+        if (hasironInFirstSlot && haslavaInSecondSlot) {
             this.itemHandler.getStackInSlot(0).shrink(1);
             this.itemHandler.getStackInSlot(1).shrink(1);
             this.itemHandler.insertItem(2, new ItemStack(ModItems.SILVER_NUGGET.get(), 1), false);
