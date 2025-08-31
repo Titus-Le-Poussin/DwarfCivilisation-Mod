@@ -55,6 +55,7 @@ public class DwarfFurnaceTileEntity extends TileEntity {
             @Override
             protected void onContentsChanged(int slot) {
                 markDirty();
+                DwarfFurnaceHasStruck();
             }
             @Override
             public boolean isItemValid(int slot, ItemStack stack) {
@@ -63,6 +64,8 @@ public class DwarfFurnaceTileEntity extends TileEntity {
                         return stack.getItem() == Items.IRON_INGOT;
                     case 1:
                         return stack.getItem() == Items.LAVA_BUCKET;
+                    case 2:
+                        return stack.getItem() == ModItems.SILVER_NUGGET.get();
                     default:
                         return false;
 
@@ -91,19 +94,26 @@ public class DwarfFurnaceTileEntity extends TileEntity {
         return super.getCapability(cap, side);
     }
 
-    public void DwarfFurnaceHasStruck() {
-        System.out.println("Recette tentée : slot0=" + this.itemHandler.getStackInSlot(0) + ", slot1=" + this.itemHandler.getStackInSlot(1));
-        boolean hasironInFirstSlot = this.itemHandler.getStackInSlot(0).getCount() > 0
-                && this.itemHandler.getStackInSlot(0).getItem() == Items.IRON_INGOT;
-        boolean haslavaInSecondSlot = this.itemHandler.getStackInSlot(1).getCount() > 0
-                && this.itemHandler.getStackInSlot(1).getItem() == Items.LAVA_BUCKET;
+public void DwarfFurnaceHasStruck() {
+    boolean hasIron = this.itemHandler.getStackInSlot(0).getCount() > 0
+            && this.itemHandler.getStackInSlot(0).getItem() == Items.IRON_INGOT;
+    boolean hasLava = this.itemHandler.getStackInSlot(1).getCount() > 0
+            && this.itemHandler.getStackInSlot(1).getItem() == Items.LAVA_BUCKET;
+    boolean outputEmpty = this.itemHandler.getStackInSlot(2).isEmpty();
 
-        if (hasironInFirstSlot && haslavaInSecondSlot) {
+    if (hasIron && hasLava && outputEmpty) {
+        ItemStack result = new ItemStack(ModItems.SILVER_NUGGET.get(), 1);
+        
+        ItemStack remainder = this.itemHandler.insertItem(2, result, false);
+        System.out.println("Insertion résultat : " + remainder + ", slot2=" + this.itemHandler.getStackInSlot(2));
+        if (remainder.isEmpty()) {
+            System.out.println("Crafting successful");
+            // Seulement si l'insertion a réussi, consomme les items
             this.itemHandler.getStackInSlot(0).shrink(1);
             this.itemHandler.getStackInSlot(1).shrink(1);
-            this.itemHandler.insertItem(2, new ItemStack(ModItems.SILVER_NUGGET.get(), 1), false);
         }
     }
+}
 }
         
 

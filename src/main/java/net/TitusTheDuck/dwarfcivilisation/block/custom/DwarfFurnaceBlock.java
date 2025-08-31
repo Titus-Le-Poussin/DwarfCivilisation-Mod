@@ -69,8 +69,6 @@ public BlockState getStateForPlacement(BlockItemUseContext context) {
         INamedContainerProvider containerProvider = createContainerProvider(worldIn, pos);
         NetworkHooks.openGui(((ServerPlayerEntity)player), containerProvider, tileEntity.getPos());
 
-        // Déclenche la recette à chaque activation
-        ((DwarfFurnaceTileEntity)tileEntity).DwarfFurnaceHasStruck();
     } else {
         throw new IllegalStateException("MAMAMAMAMAMMAMA c'est PAS BON! ");
         

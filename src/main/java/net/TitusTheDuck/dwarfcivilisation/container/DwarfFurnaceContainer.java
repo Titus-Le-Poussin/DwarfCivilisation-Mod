@@ -38,7 +38,22 @@ public class DwarfFurnaceContainer extends Container {
             tileEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(h -> {
                 addSlot(new SlotItemHandler(h, 0, 61, 36 ));
                 addSlot(new SlotItemHandler(h, 1, 24, 36 ));
-                addSlot(new SlotItemHandler(h, 2, 110, 45 ));
+                addSlot(new SlotItemHandler(h, 2, 110, 45 ){
+    @Override
+    public boolean canTakeStack(PlayerEntity playerIn) {
+        // Vérifie qu'il y a bien la Silver Nugget
+        return getHasStack();
+    }
+
+    @Override
+    public ItemStack onTake(PlayerEntity thePlayer, ItemStack stack) {
+        IItemHandler handler = this.getItemHandler();
+        System.out.println("craft realisé");
+        handler.getStackInSlot(0).shrink(1);
+        handler.getStackInSlot(1).shrink(1);
+        return super.onTake(thePlayer, stack);
+}
+});
             });
 
         }
