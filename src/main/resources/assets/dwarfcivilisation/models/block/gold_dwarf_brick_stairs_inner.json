@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/gold_dwarf_brick",
+    "top": "dwarfcivilisation:block/gold_dwarf_brick",
+    "side": "dwarfcivilisation:block/gold_dwarf_brick"
+  }
+}

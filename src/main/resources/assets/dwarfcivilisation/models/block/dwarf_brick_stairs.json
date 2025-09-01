@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/dwarf_brick",
+    "top": "dwarfcivilisation:block/dwarf_brick",
+    "side": "dwarfcivilisation:block/dwarf_brick"
+  }
+}

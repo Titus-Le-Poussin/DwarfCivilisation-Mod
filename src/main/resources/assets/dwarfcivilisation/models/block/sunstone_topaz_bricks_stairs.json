@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/sunstone_topaz_bricks",
+    "top": "dwarfcivilisation:block/sunstone_topaz_bricks",
+    "side": "dwarfcivilisation:block/sunstone_topaz_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/cracked_ember_bricks",
+    "top": "dwarfcivilisation:block/cracked_ember_bricks",
+    "side": "dwarfcivilisation:block/cracked_ember_bricks"
+  }
+}

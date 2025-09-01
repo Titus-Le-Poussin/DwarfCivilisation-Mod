@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/sunstone_block",
+    "top": "dwarfcivilisation:block/sunstone_block",
+    "side": "dwarfcivilisation:block/sunstone_block"
+  }
+}

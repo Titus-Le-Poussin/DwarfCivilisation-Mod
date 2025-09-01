@@ -1,0 +1,6 @@
+{
+  "type": "dwarfcivilisation:dwarf_furnace",
+  "ingredient": { "item": "dwarfcivilisation:raw_mythril" },
+  "result": { "item": "dwarfcivilisation:mythril_ingot" },
+  "cooktime": 200
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/carbone_schist_brick",
+    "top": "dwarfcivilisation:block/carbone_schist_brick",
+    "side": "dwarfcivilisation:block/carbone_schist_brick"
+  }
+}

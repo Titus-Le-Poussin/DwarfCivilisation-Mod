@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/smooth_ember_bricks",
+    "top": "dwarfcivilisation:block/smooth_ember_bricks",
+    "side": "dwarfcivilisation:block/smooth_ember_bricks"
+  }
+}

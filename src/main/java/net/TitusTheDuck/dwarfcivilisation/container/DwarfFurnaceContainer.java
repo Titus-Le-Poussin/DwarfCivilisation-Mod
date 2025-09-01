@@ -45,13 +45,14 @@ public class DwarfFurnaceContainer extends Container {
         return getHasStack();
     }
 
-    @Override
-    public ItemStack onTake(PlayerEntity thePlayer, ItemStack stack) {
-        IItemHandler handler = this.getItemHandler();
-        System.out.println("craft realisé");
-        handler.getStackInSlot(0).shrink(1);
-        handler.getStackInSlot(1).shrink(1);
-        return super.onTake(thePlayer, stack);
+@Override
+public ItemStack onTake(PlayerEntity thePlayer, ItemStack stack) {
+    IItemHandler handler = this.getItemHandler();
+    handler.getStackInSlot(0).shrink(1);
+    handler.getStackInSlot(1).shrink(1);
+    // Après avoir consommé, le slot 2 sera vidé par le super.onTake
+    putStack(ItemStack.EMPTY);
+    return super.onTake(thePlayer, stack);
 }
 });
             });

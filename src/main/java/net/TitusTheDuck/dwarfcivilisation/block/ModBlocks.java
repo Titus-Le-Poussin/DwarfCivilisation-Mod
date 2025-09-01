@@ -4,6 +4,7 @@ import net.TitusTheDuck.dwarfcivilisation.item.ModItemGroup;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.StairsBlock;
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
@@ -111,6 +112,16 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(5f)));
 
+     public static final RegistryObject<Block> SILVER_STAIRS = registerBlock("silver_stairs",
+             () -> new StairsBlock(() -> SILVER_BLOCK.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+
+
+
+
+
+
+
     public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.IRON)
@@ -202,6 +213,18 @@ public class ModBlocks {
                     .hardnessAndResistance(3f)));
 
 
+                         public static final RegistryObject<Block> ARDOISE_BLOCK_STAIRS = registerBlock("ardoise_block_stairs",
+             () -> new StairsBlock(() -> ARDOISE_BLOCK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+
+                         public static final RegistryObject<Block> ARDOISE_BRICK_STAIRS = registerBlock("ardoise_brick_stairs",
+             () -> new StairsBlock(() -> ARDOISE_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+
+                        public static final RegistryObject<Block> ARDOISE_CUBE_STAIRS = registerBlock("ardoise_cube_stairs",
+             () -> new StairsBlock(() -> ARDOISE_CUBE.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+
 
 
 
@@ -245,6 +268,20 @@ public class ModBlocks {
                     .hardnessAndResistance(6f)));
 
 
+                        public static final RegistryObject<Block> DWARF_BRICK_STAIRS = registerBlock("dwarf_brick_stairs",
+             () -> new StairsBlock(() -> DWARF_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+             public static final RegistryObject<Block> IRON_DWARF_BRICK_STAIRS = registerBlock("iron_dwarf_brick_stairs",
+             () -> new StairsBlock(() -> IRON_DWARF_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+             public static final RegistryObject<Block> GOLD_DWARF_BRICK_STAIRS = registerBlock("gold_dwarf_brick_stairs",
+             () -> new StairsBlock(() -> GOLD_DWARF_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+             public static final RegistryObject<Block> DIAMOND_DWARF_BRICK_STAIRS = registerBlock("diamond_dwarf_brick_stairs",
+             () -> new StairsBlock(() -> DIAMOND_DWARF_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+
+
 
 
 
@@ -280,6 +317,16 @@ public class ModBlocks {
                     .harvestLevel(1)
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(4f)));
+
+                    public static final RegistryObject<Block> CARBONE_SCHIST_BRICK_STAIRS = registerBlock("carbone_schist_brick_stairs",
+             () -> new StairsBlock(() -> CARBONE_SCHIST_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+
+             public static final RegistryObject<Block> CARBONE_SCHIST_BLOCK_STAIRS = registerBlock("carbone_schist_block_stairs",
+             () -> new StairsBlock(() -> CARBONE_SCHIST_BLOCK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+             public static final RegistryObject<Block> SMOOTH_CARBONE_SCHIST_BRICK_STAIRS = registerBlock("smooth_carbone_schist_brick_stairs",
+             () -> new StairsBlock(() -> SMOOTH_CARBONE_SCHIST_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
 
 
@@ -348,6 +395,24 @@ public class ModBlocks {
                     .hardnessAndResistance(4f)));
 
 
+                    public static final RegistryObject<Block> CRACKED_EMBER_BRICKS_STAIRS = registerBlock("cracked_ember_bricks_stairs",
+             () -> new StairsBlock(() -> CRACKED_EMBER_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+             public static final RegistryObject<Block> EMBER_BRICKS_STAIRS = registerBlock("ember_bricks_stairs",
+             () -> new StairsBlock(() -> EMBER_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+             public static final RegistryObject<Block> EMBER_BLOCK_STAIRS = registerBlock("ember_block_stairs",
+             () -> new StairsBlock(() -> EMBER_BLOCK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+             public static final RegistryObject<Block> SILVEMBER_STAIRS = registerBlock("silvember_stairs",
+             () -> new StairsBlock(() -> SILVEMBER_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+             public static final RegistryObject<Block> SMOOTH_EMBER_BRICKS_STAIRS = registerBlock("smooth_ember_bricks_stairs",
+             () -> new StairsBlock(() -> SMOOTH_EMBER_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+    public static final RegistryObject<Block> MOSSY_EMBER_BRICKS_STAIRS = registerBlock("mossy_ember_bricks_stairs",
+            () -> new StairsBlock(() -> MOSSY_EMBER_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
 
 
 
@@ -390,11 +455,6 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(4f)));
 
-
-
-
-
-
     public static final RegistryObject<Block> MOSSY_SUNSTONE_BRICKS = registerBlock("mossy_sunstone_bricks",
             () -> new Block(AbstractBlock.Properties
                     .create(Material.ROCK)
@@ -411,6 +471,20 @@ public class ModBlocks {
 
 
 
+                public static final RegistryObject<Block> SMOOTH_SUNSTONE_BRICKS_STAIRS = registerBlock("smooth_sunstone_bricks_stairs",
+             () -> new StairsBlock(() -> SMOOTH_SUNSTONE_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+                public static final RegistryObject<Block> SUNSTONE_BRICK_STAIRS = registerBlock("sunstone_brick_stairs",
+             () -> new StairsBlock(() -> SUNSTONE_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+                public static final RegistryObject<Block> SUNSTONE_BLOCK_STAIRS = registerBlock("sunstone_block_stairs",
+             () -> new StairsBlock(() -> SUNSTONE_BLOCK.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+                public static final RegistryObject<Block> MOSSY_SUNSTONE_BRICKS_STAIRS = registerBlock("mossy_sunstonne_bricks_stairs",
+            () -> new StairsBlock(() -> MOSSY_SUNSTONE_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+
+                public static final RegistryObject<Block> SUNSTONE_TOPAZ_BRICKS_STAIRS = registerBlock("sunstonne_topaz_bricks_stairs",
+            () -> new StairsBlock(() -> SUNSTONE_TOPAZ_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
 
 
