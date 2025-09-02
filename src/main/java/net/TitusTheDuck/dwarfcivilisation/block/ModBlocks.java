@@ -404,7 +404,7 @@ public class ModBlocks {
              public static final RegistryObject<Block> EMBER_BLOCK_STAIRS = registerBlock("ember_block_stairs",
              () -> new StairsBlock(() -> EMBER_BLOCK.get().getDefaultState(), AbstractBlock.Properties.create(Material.ROCK).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
-             public static final RegistryObject<Block> SILVEMBER_STAIRS = registerBlock("silvember_stairs",
+             public static final RegistryObject<Block> SILVEMBER_BRICK_STAIRS = registerBlock("silvember_brick_stairs",
              () -> new StairsBlock(() -> SILVEMBER_BRICK.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
              public static final RegistryObject<Block> SMOOTH_EMBER_BRICKS_STAIRS = registerBlock("smooth_ember_bricks_stairs",
@@ -480,10 +480,10 @@ public class ModBlocks {
                 public static final RegistryObject<Block> SUNSTONE_BLOCK_STAIRS = registerBlock("sunstone_block_stairs",
              () -> new StairsBlock(() -> SUNSTONE_BLOCK.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
-                public static final RegistryObject<Block> MOSSY_SUNSTONE_BRICKS_STAIRS = registerBlock("mossy_sunstonne_bricks_stairs",
+                public static final RegistryObject<Block> MOSSY_SUNSTONE_BRICKS_STAIRS = registerBlock("mossy_sunstone_bricks_stairs",
             () -> new StairsBlock(() -> MOSSY_SUNSTONE_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
-                public static final RegistryObject<Block> SUNSTONE_TOPAZ_BRICKS_STAIRS = registerBlock("sunstonne_topaz_bricks_stairs",
+                public static final RegistryObject<Block> SUNSTONE_TOPAZ_BRICKS_STAIRS = registerBlock("sunstone_topaz_bricks_stairs",
             () -> new StairsBlock(() -> SUNSTONE_TOPAZ_BRICKS.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
 

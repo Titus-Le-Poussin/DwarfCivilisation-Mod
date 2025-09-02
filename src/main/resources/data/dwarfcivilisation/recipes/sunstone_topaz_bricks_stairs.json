@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:sunstone_topaz_bricks"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:sunstone_topaz_bricks_stairs",
+    "count": 6
+  }
+}

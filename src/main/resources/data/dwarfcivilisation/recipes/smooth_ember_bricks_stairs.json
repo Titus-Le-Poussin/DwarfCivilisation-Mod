@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:smooth_ember_bricks"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:smooth_ember_bricks_stairs",
+    "count": 6
+  }
+}
