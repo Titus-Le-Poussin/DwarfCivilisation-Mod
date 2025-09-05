@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/silver_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/silver_block"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/silver_slab_top"
+    }
+  }
+}

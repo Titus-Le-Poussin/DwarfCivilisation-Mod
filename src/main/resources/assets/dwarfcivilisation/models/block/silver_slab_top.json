@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/silver_block",
+    "top": "dwarfcivilisation:block/silver_block",
+    "side": "dwarfcivilisation:block/silver_block"
+  }
+}

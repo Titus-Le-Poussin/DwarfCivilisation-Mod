@@ -4,6 +4,7 @@ import net.TitusTheDuck.dwarfcivilisation.item.ModItemGroup;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.block.StairsBlock;
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
 import net.minecraft.block.material.Material;
@@ -113,9 +114,14 @@ public class ModBlocks {
                     .hardnessAndResistance(5f)));
 
      public static final RegistryObject<Block> SILVER_STAIRS = registerBlock("silver_stairs",
-             () -> new StairsBlock(() -> SILVER_BLOCK.get().getDefaultState(), AbstractBlock.Properties.create(Material.IRON).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+             () -> new StairsBlock(() -> SILVER_BLOCK.get().getDefaultState(), AbstractBlock.Properties
+                     .create(Material.IRON).harvestLevel(2).harvestTool(ToolType.PICKAXE)
+                     .setRequiresTool()));
 
-
+    public static final RegistryObject<Block>SILVER_SLAB = registerBlock("silver_slab",
+            () ->new SlabBlock(AbstractBlock.Properties.create(Material.IRON)
+            .harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE)
+            .hardnessAndResistance(6f)));
 
 
 
