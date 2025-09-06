@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/gold_dwarf_brick_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/gold_dwarf_brick"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/gold_dwarf_brick_slab_top"
+    }
+  }
+}

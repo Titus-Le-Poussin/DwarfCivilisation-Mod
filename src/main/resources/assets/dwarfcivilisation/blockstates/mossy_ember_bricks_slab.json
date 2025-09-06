@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/mossy_ember_bricks_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/mossy_ember_bricks"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/mossy_ember_bricks_slab_top"
+    }
+  }
+}

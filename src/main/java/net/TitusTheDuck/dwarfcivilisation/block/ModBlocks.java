@@ -367,11 +367,6 @@ public class ModBlocks {
 
 
 
-        public static final RegistryObject<Block>SCHIST_BLOCK_SLAB = registerBlock("schist_block_slab",
-            () ->new SlabBlock(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(1).setRequiresTool().harvestTool(ToolType.PICKAXE)
-                    .hardnessAndResistance(4f)));
-
 
         public static final RegistryObject<Block>CARBONE_SCHIST_BLOCK_SLAB = registerBlock("carbone_schist_block_slab",
             () ->new SlabBlock(AbstractBlock.Properties.create(Material.ROCK)

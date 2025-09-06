@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/sunstone_block_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/sunstone_block"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/sunstone_block_slab_top"
+    }
+  }
+}

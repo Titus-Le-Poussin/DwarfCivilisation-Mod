@@ -11,6 +11,7 @@
     }
   },
   "result": {
-    "item": "dwarfcivilisation:silver_slab"
+    "item": "dwarfcivilisation:silver_slab",
+    "count": 3
   }
 }

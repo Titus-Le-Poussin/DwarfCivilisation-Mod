@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/sunstone_topaz_bricks_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/sunstone_topaz_bricks"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/sunstone_topaz_bricks_slab_top"
+    }
+  }
+}

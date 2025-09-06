@@ -2,7 +2,7 @@
   "parent": "minecraft:block/outer_stairs",
   "textures": {
     "bottom": "dwarfcivilisation:block/smooth_sunstone_bricks",
-    "top": "dwarfcivilisation:block/dsmooth_sunstone_bricks",
+    "top": "dwarfcivilisation:block/smooth_sunstone_bricks",
     "side": "dwarfcivilisation:block/smooth_sunstone_bricks"
   }
 }

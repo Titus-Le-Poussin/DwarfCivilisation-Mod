@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/diamond_dwarf_brick_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/diamond_dwarf_brick"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/diamond_dwarf_brick_slab_top"
+    }
+  }
+}

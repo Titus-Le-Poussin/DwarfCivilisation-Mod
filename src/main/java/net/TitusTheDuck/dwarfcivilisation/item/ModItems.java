@@ -1,6 +1,7 @@
 package net.TitusTheDuck.dwarfcivilisation.item;
 
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
+import net.TitusTheDuck.dwarfcivilisation.item.custom.DynamiteItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -16,6 +17,14 @@ public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DwarfCivilisationMod.MOD_ID);
+
+                //item explosif
+public static final RegistryObject<Item> DYNAMITE = ITEMS.register("dynamite",
+        () -> new DynamiteItem(new Item.Properties()
+                .group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)
+                .maxStackSize(16)));
+        
+
 
 
 

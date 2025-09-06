@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/ardoise_cube_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/ardoise_cube"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/ardoise_cube_slab_top"
+    }
+  }
+}

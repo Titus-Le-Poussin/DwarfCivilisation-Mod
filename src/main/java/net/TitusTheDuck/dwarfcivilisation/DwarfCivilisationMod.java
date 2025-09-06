@@ -7,6 +7,7 @@ import net.TitusTheDuck.dwarfcivilisation.screen.DwarfFurnaceScreen;
 import net.TitusTheDuck.dwarfcivilisation.tileentity.ModTileEntities;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -22,6 +23,8 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+
 
 import java.util.stream.Collectors;
 
@@ -52,6 +55,7 @@ public class DwarfCivilisationMod
         // Register the doClientStuff method for modloading
         eventBus.addListener(this::doClientStuff);
 
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -66,10 +70,11 @@ public class DwarfCivilisationMod
 
     }
 
-    private void doClientStuff(final FMLClientSetupEvent event) {
-        ScreenManager.registerFactory(ModContainers.DWARF_FURNACE_CONTAINER.get(),
-                DwarfFurnaceScreen::new);
-    }
+private void doClientStuff(final FMLClientSetupEvent event) {
+    ScreenManager.registerFactory(ModContainers.DWARF_FURNACE_CONTAINER.get(), DwarfFurnaceScreen::new);
+
+
+}
 
     private void enqueueIMC(final InterModEnqueueEvent event)
     {

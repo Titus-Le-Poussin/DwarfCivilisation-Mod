@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/ember_block_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/ember_block"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/ember_block_slab_top"
+    }
+  }
+}

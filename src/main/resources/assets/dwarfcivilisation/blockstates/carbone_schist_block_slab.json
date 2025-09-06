@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfcivilisation:block/carbone_schist_block_slab"
+    },
+    "type=double": {
+      "model": "dwarfcivilisation:block/carbone_schist_block"
+    },
+    "type=top": {
+      "model": "dwarfcivilisation:block/carbone_schist_block_slab_top"
+    }
+  }
+}

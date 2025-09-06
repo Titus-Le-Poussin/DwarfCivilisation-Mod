@@ -11,6 +11,62 @@ slab stair Walls
 
 
 
+			TOOL
+
+
+
+mythril_pickaxe   (1 purity_stick and 3 mythril_ingots)
+mythril_sword     (1 purity_stick and 2 mythril_ingots)
+mythril_axe       (1 purity_stick and 3 mythril_ingots)
+mythril_shovel    (1 purity_stick and 1 mythril_ingot)
+mythril_hoe       (1 purity_stick and 2 mythril_ingots)
+
+
+
+steel_pickaxe     (3 steel_ingots + 2 stick)
+steel_sword       (2 steel_ingots + 1 stick)
+steel_axe         (3 steel_ingots + 2 stick)
+steel_shovel      (1 steel_ingot + 2 stick)
+steel_hoe         (2 steel_ingots + 2 stick)
+steel_forreur     (mining 9*9)
+
+
+
+
+
+
+runic_pickaxe   (2 onyx + 1 topaz + 2 blazerod)  [auto-smelt minerais]  
+runic_sword     (1 onyx + 1 topaz + 1 blazerod)   [applique Wither I ou Fire Aspect I aléatoirement (ombre ou feu, au choix du destin).]
+runic_axe       (2 onyx + 1 topaz + 2 blazerod)  	[ rapide]
+runic_shovel    (1 onyx + 1 topaz + 1 blazerod)  	[ rapide]
+runic_hoe       (1 onyx + 1 topaz + 2 blazerod)  	[ rapide]
+runic_hammer 	(2 onyx + 2 steel_ingot + 1 topaz + 1 blazerod )   [auto_smell]
+
+
+royal_pickaxe   (2 silver_ingot + 1 azure + 2 purity_stick)  
+royal_sword     (1 silver_ingot + 1 azure + 1 purity_stick)  
+royal_axe       (2 silver_ingot + 1 azure + 2 purity_stick)  
+royal_shovel    (1 silver_ingot + 1 azure + 1 purity_stick)  
+royal_hoe       (1 silver_ingot + 1 azure + 2 purity_stick)  
+
+
+
+bloodforge_pickaxe   (1 ruby + 2 steel_ingot + 2 stick)   [mine comme fer mais + durable]  
+bloodforge_sword     (1 ruby + 1 steel_ingot + 1 stick)   [dégâts élevés mais lent]  
+bloodforge_axe       (2 ruby + 1 steel_ingot + 2 stick)   [attaque lourde]  
+bloodforge_shovel    (1 ruby + 1 steel_ingot + 2 stick)   [standard mais solide]  
+bloodforge_hoe       (1 ruby + 1 steel_ingot + 2 stick)   [standard mais solide]  
+
+
+stoneforge_pickaxe   (2 cobblestone + 1 steel_ingot + 2 stick)   [mine comme stone mais dure comme fer]  
+stoneforge_sword     (1 cobblestone + 1 steel_ingot + 1 stick)   [équilibré, pas cher]  
+stoneforge_axe       (2 cobblestone + 1 steel_ingot + 2 stick)   [standard mais solide]  
+stoneforge_shovel    (1 cobblestone + 1 steel_ingot + 2 stick)   [rapide comme fer]  
+stoneforge_hoe       (1 cobblestone + 1 steel_ingot + 2 stick)   [standard mais solide]  
+
+
+
+
 									ITEM
 RUBIS
 ruby
@@ -31,6 +87,9 @@ mythril_block		(9 mythril_ingots craft)
 mythril_ore        	(mining with steel_pickaxe)
 mythril_pickaxe		(1 purity_stick and 3 mythril_ingots)
 mythril_sword		(1 purity_stick and 2 mythril_ingots)
+
+
+
 
 
 AMETHYST 		(purple, traditionnellement lié à la sagesse et la royauté))
