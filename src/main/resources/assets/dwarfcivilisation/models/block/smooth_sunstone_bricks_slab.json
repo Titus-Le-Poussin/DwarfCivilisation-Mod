@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/smooth_sunstone_bricks",
+    "top": "dwarfcivilisation:block/smooth_sunstone_bricks",
+    "side": "dwarfcivilisation:block/smooth_sunstone_bricks"
+  }
+}

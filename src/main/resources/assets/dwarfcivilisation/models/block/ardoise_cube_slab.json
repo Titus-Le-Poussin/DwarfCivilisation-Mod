@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/ardoise_cube",
+    "top": "dwarfcivilisation:block/ardoise_cube",
+    "side": "dwarfcivilisation:block/ardoise_cube"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:ardoise_brick"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:ardoise_brick_slab",
+    "count": 3
+  }
+}

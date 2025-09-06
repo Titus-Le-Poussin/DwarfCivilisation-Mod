@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/silvember_brick",
+    "top": "dwarfcivilisation:block/silvember_brick",
+    "side": "dwarfcivilisation:block/silvember_brick"
+  }
+}

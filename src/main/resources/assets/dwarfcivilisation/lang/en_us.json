@@ -78,7 +78,38 @@
   "block.dwarfcivilisation.gold_dwarf_brick": "Gold Dwarf Brick",
   "block.dwarfcivilisation.diamond_dwarf_brick": "Diamond Dwarf Brick",
   "block.dwarfcivilisation.steel_block": "Steel Block",
-  "block.dwarfcivilisation.silver_slab": "Silver Slab",
+
+
+
+
+
+"block.dwarfcivilisation.silver_slab": "Silver Slab",
+"block.dwarfcivilisation.ardoise_block_slab": "Ardoise Block Slab",
+"block.dwarfcivilisation.ardoise_brick_slab": "Ardoise Brick Slab",
+"block.dwarfcivilisation.ardoise_cube_slab": "Ardoise Cube Slab",
+"block.dwarfcivilisation.dwarf_brick_slab": "Dwarf Brick Slab",
+"block.dwarfcivilisation.iron_dwarf_brick_slab": "Iron Dwarf Brick Slab",
+"block.dwarfcivilisation.gold_dwarf_brick_slab": "Gold Dwarf Brick Slab",
+"block.dwarfcivilisation.diamond_dwarf_brick_slab": "Diamond Dwarf Brick Slab",
+"block.dwarfcivilisation.schist_block_slab": "Schist Block Slab",
+"block.dwarfcivilisation.carbone_schist_block_slab": "Carbone Schist Block Slab",
+"block.dwarfcivilisation.carbone_schist_brick_slab": "Carbone Schist Brick Slab",
+"block.dwarfcivilisation.smooth_carbone_schist_brick_slab": "Smooth Carbone Schist Brick Slab",
+"block.dwarfcivilisation.ember_block_slab": "Ember Block Slab",
+"block.dwarfcivilisation.ember_bricks_slab": "Ember Bricks Slab",
+"block.dwarfcivilisation.cracked_ember_bricks_slab": "Cracked Ember Bricks Slab",
+"block.dwarfcivilisation.silvember_brick_slab": "Silvember Brick Slab",
+"block.dwarfcivilisation.smooth_ember_bricks_slab": "Smooth Ember Bricks Slab",
+"block.dwarfcivilisation.mossy_ember_bricks_slab": "Mossy Ember Bricks Slab",
+"block.dwarfcivilisation.sunstone_block_slab": "Sunstone Block Slab",
+"block.dwarfcivilisation.sunstone_brick_slab": "Sunstone Brick Slab",
+"block.dwarfcivilisation.mossy_sunstone_bricks_slab": "Mossy Sunstone Bricks Slab",
+"block.dwarfcivilisation.smooth_sunstone_bricks_slab": "Smooth Sunstone Bricks Slab",
+"block.dwarfcivilisation.sunstone_topaz_bricks_slab": "Sunstone Topaz Bricks Slab",
+
+
+
+
   "item.dwarfcivilisation.amethyst": "Amethyst",
   "item.dwarfcivilisation.carbone_powder": "Carbone Powder",
   "item.dwarfcivilisation.ember_brick": "Ember Brick",

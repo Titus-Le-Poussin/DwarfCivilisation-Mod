@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dwarfcivilisation:carbone_schist_brick_slab"
+
+        }
+      ]
+    }
+  ]
+}

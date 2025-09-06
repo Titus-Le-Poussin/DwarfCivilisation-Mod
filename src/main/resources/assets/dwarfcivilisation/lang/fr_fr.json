@@ -75,7 +75,41 @@
   "block.dwarfcivilisation.iron_dwarf_brick": "Brique naine Argenté",
   "block.dwarfcivilisation.gold_dwarf_brick": "Brique naine Doré",
   "block.dwarfcivilisation.diamond_dwarf_brick": "Brique naine de Diamant",
-  "block.dwarfcivilisation.silver_slab": "Demis Dalle d'Argent",
+
+
+
+
+"block.dwarfcivilisation.silver_slab": "Dalle en Argent",
+"block.dwarfcivilisation.ardoise_block_slab": "Dalle de Bloc d'Ardoise",
+"block.dwarfcivilisation.ardoise_brick_slab": "Dalle de Brique d'Ardoise",
+"block.dwarfcivilisation.ardoise_cube_slab": "Dalle de Cube d'Ardoise",
+"block.dwarfcivilisation.dwarf_brick_slab": "Dalle de Brique Naine",
+"block.dwarfcivilisation.iron_dwarf_brick_slab": "Dalle de Brique Naine en Fer",
+"block.dwarfcivilisation.gold_dwarf_brick_slab": "Dalle de Brique Naine en Or",
+"block.dwarfcivilisation.diamond_dwarf_brick_slab": "Dalle de Brique Naine en Diamant",
+"block.dwarfcivilisation.schist_block_slab": "Dalle de Bloc de Schiste",
+"block.dwarfcivilisation.carbone_schist_block_slab": "Dalle de Bloc de Schiste Carboné",
+"block.dwarfcivilisation.carbone_schist_brick_slab": "Dalle de Brique de Schiste Carboné",
+"block.dwarfcivilisation.smooth_carbone_schist_brick_slab": "Dalle de Brique Lisse de Schiste Carboné",
+"block.dwarfcivilisation.ember_block_slab": "Dalle de Bloc de Braise",
+"block.dwarfcivilisation.ember_bricks_slab": "Dalle de Briques de Braise",
+"block.dwarfcivilisation.cracked_ember_bricks_slab": "Dalle de Briques Fissurées de Braise",
+"block.dwarfcivilisation.silvember_brick_slab": "Dalle de Brique en Silvember",
+"block.dwarfcivilisation.smooth_ember_bricks_slab": "Dalle de Briques Lisses de Braise",
+"block.dwarfcivilisation.mossy_ember_bricks_slab": "Dalle de Briques Moussues de Braise",
+"block.dwarfcivilisation.sunstone_block_slab": "Dalle de Bloc de Pierre de Soleil",
+"block.dwarfcivilisation.sunstone_brick_slab": "Dalle de Brique de Pierre de Soleil",
+"block.dwarfcivilisation.mossy_sunstone_bricks_slab": "Dalle de Briques Moussues de Pierre de Soleil",
+"block.dwarfcivilisation.smooth_sunstone_bricks_slab": "Dalle de Briques Lisses de Pierre de Soleil",
+"block.dwarfcivilisation.sunstone_topaz_bricks_slab": "Dalle de Briques de Pierre de Soleil et Topaze",
+  
+
+
+
+
+
+
+
   "block.dwarfcivilisation.steel_block": "Block d'Acier",
   "item.dwarfcivilisation.amethyst": "Améthyste",
   "item.dwarfcivilisation.carbone_powder": "Poudre de carbone",

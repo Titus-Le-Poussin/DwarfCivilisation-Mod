@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:smooth_carbone_schist_brick"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:smooth_carbone_schist_brick_slab",
+    "count": 3
+  }
+}

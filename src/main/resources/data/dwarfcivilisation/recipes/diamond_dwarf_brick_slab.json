@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dwarfcivilisation:diamond_dwarf_brick"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:diamond_dwarf_brick_slab",
+    "count": 3
+  }
+}

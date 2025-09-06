@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dwarfcivilisation:block/mossy_ember_bricks",
+    "top": "dwarfcivilisation:block/mossy_ember_bricks",
+    "side": "dwarfcivilisation:block/mossy_ember_bricks"
+  }
+}
