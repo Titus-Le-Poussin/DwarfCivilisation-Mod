@@ -5,6 +5,7 @@ import net.TitusTheDuck.dwarfcivilisation.item.custom.DynamiteItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SwordItem;
 import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
@@ -24,6 +25,13 @@ public static final RegistryObject<Item> DYNAMITE = ITEMS.register("dynamite",
                 .group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)
                 .maxStackSize(16)));
         
+                                //Tools
+
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword",
+            () -> new SwordItem(ModItemTier.STEEL, 2, 3f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
 
 
 
