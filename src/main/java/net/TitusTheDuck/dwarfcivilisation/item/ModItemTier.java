@@ -7,8 +7,9 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
     STEEL(3, 1500, 5f, 2f, 10,
-            () -> Ingredient.fromItems(ModItems.STEEL_INGOTS.get()));
-
+            () -> Ingredient.fromItems(ModItems.STEEL_INGOTS.get())),
+    RUNIC(3, 1700, 6f, 2f, 10,
+                  () -> Ingredient.fromItems(ModItems.ONYX.get(), ModItems.TOPAZ.get()));
 
 
 

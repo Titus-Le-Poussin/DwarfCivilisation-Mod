@@ -17,6 +17,7 @@
   "item.dwarfcivilisation.goat_cheese_slice": "Goat Cheese Slice",
   "item.dwarfcivilisation.goat_cheese_wheel": "Goat Cheese Wheel",
   "item.dwarfcivilisation.goat_milk": "Goat Milk",
+  "item.dwarfcivilisation.runic_hammer": "Runic Hammer",
 
   "item.dwarfcivilisation.cavern_cake": "Cavern Cake",
   "item.dwarfcivilisation.cinter_stew": "Cinter Stew",
@@ -80,7 +81,15 @@
   "block.dwarfcivilisation.steel_block": "Steel Block",
 
 
+  "item.dwarfcivilisation.steel_sword": "Steel Sword",
+  "item.dwarfcivilisation.steel_pickaxe": "Steel Pickaxe",
+  "item.dwarfcivilisation.steel_axe": "Steel Axe",
+  "item.dwarfcivilisation.steel_shovel": "Steel Shovel",
+  "item.dwarfcivilisation.steel_hoe": "Steel Hoe",
 
+
+
+"item.dwarfcivilisation.dynamite": "Dynamite",
 
 
 "block.dwarfcivilisation.silver_slab": "Silver Slab",
@@ -107,7 +116,11 @@
 "block.dwarfcivilisation.smooth_sunstone_bricks_slab": "Smooth Sunstone Bricks Slab",
 "block.dwarfcivilisation.sunstone_topaz_bricks_slab": "Sunstone Topaz Bricks Slab",
 
-
+  "item.dwarfcivilisation.runic_sword": "Runic Sword",
+  "item.dwarfcivilisation.runic_pickaxe": "Runic Pickaxe",
+  "item.dwarfcivilisation.runic_axe": "Runic Axe",
+  "item.dwarfcivilisation.runic_shovel": "Runic Shovel",
+  "item.dwarfcivilisation.runic_hoe": "Runic Hoe",
 
 
   "item.dwarfcivilisation.amethyst": "Amethyst",

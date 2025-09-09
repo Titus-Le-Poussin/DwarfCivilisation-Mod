@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bsb",
+    "bab",
+    " a "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:topaz"
+    },
+    "a": {
+      "item": "minecraft:blaze_rod"
+    },
+    "b": "dwarfcivilisation:onyx"
+  },
+  "result": {
+    "item": "dwarfcivilisation:runic_hammer",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " s ",
+    " a "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:topaz"
+    },
+    "a": {
+      "item": "minecraft:blaze_rod"
+    },
+    "b": "dwarfcivilisation:onyx"
+  },
+  "result": {
+    "item": "dwarfcivilisation:runic_shovel",
+    "count": 1
+  }
+}

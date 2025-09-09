@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " s ",
+    " a "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:steel_ingots"
+    },
+    "a": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:steel_sword",
+    "count": 1
+  }
+}

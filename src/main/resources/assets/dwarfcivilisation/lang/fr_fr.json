@@ -77,6 +77,20 @@
   "block.dwarfcivilisation.diamond_dwarf_brick": "Brique naine de Diamant",
 
 "item.dwarfcivilisation.dynamite": "Dynamite",
+  "item.dwarfcivilisation.steel_sword": "Epée d'Acier",
+  "item.dwarfcivilisation.steel_axe": "Hache d'Acier",
+  "item.dwarfcivilisation.steel_pickaxe": "Pioche d'Acier",
+  "item.dwarfcivilisation.steel_shovel": "Pelle d'Acier",
+  "item.dwarfcivilisation.steel_hoe": "Houe d'Acier",
+
+
+
+  "item.dwarfcivilisation.runic_sword": "Épée Runique",
+  "item.dwarfcivilisation.runic_pickaxe": "Pioche Runique",
+  "item.dwarfcivilisation.runic_axe": "Hache Runique",
+  "item.dwarfcivilisation.runic_shovel": "Pelle Runique",
+  "item.dwarfcivilisation.runic_hoe": "Houe Runique",
+  "item.dwarfcivilisation.runic_hammer": "Marteau Runique",
 
 
 "block.dwarfcivilisation.silver_slab": "Dalle en Argent",
