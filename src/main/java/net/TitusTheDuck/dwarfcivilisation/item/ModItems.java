@@ -1,17 +1,18 @@
 package net.TitusTheDuck.dwarfcivilisation.item;
 
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
+import net.TitusTheDuck.dwarfcivilisation.item.custom.AutoSmeltPickaxeItem;
+import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerRunicItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SwordItem;
-import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+
 
 public class ModItems {
 
@@ -56,9 +57,8 @@ public class ModItems {
 
 
 
-
     public static final RegistryObject<Item> RUNIC_PICKAXE = ITEMS.register("runic_pickaxe",
-            () -> new net.minecraft.item.PickaxeItem(ModItemTier.RUNIC, 1, -2.8f,
+            () -> new AutoSmeltPickaxeItem(ModItemTier.RUNIC, 1, -2.8f,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
 
@@ -78,7 +78,7 @@ public class ModItems {
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
     public static final RegistryObject<Item> RUNIC_HAMMER = ITEMS.register("runic_hammer",
-            () -> new net.minecraft.item.PickaxeItem(ModItemTier.RUNIC, 1, -2.8f,
+            () -> new HammerRunicItem(ModItemTier.RUNIC, 1, -2.8f,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
 
