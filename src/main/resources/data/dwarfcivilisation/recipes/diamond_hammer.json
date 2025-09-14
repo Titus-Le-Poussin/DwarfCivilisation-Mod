@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bsb",
+    "bab",
+    " a "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:steel_ingot"
+    },
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": "dwarfcivilisation:diamond"
+  },
+  "result": {
+    "item": "dwarfcivilisation:diamond_hammer",
+    "count": 1
+  }
+}

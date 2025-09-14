@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bb ",
+    " a ",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "dwarfcivilisation:purity_stick"
+    },
+    "b": "dwarfcivilisation:mythril_ingot"
+  },
+  "result": {
+    "item": "dwarfcivilisation:mythril_hoe",
+    "count": 1
+  }
+}

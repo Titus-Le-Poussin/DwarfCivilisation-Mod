@@ -84,6 +84,11 @@
   "item.dwarfcivilisation.steel_hoe": "Houe d'Acier",
 
 
+  "item.dwarfcivilisation.mythril_sword": "Épée en Mythril",
+  "item.dwarfcivilisation.mythril_pickaxe": "Pioche en Mythril",
+  "item.dwarfcivilisation.mythril_axe": "Hache en Mythril",
+  "item.dwarfcivilisation.mythril_shovel": "Pelle en Mythril",
+  "item.dwarfcivilisation.mythril_hoe": "Houe en Mythril",
 
   "item.dwarfcivilisation.runic_sword": "Épée Runique",
   "item.dwarfcivilisation.runic_pickaxe": "Pioche Runique",
@@ -91,6 +96,7 @@
   "item.dwarfcivilisation.runic_shovel": "Pelle Runique",
   "item.dwarfcivilisation.runic_hoe": "Houe Runique",
   "item.dwarfcivilisation.runic_hammer": "Marteau Runique",
+  "item.dwarfcivilisation.diamond_hammer": "Marteau en Diamant",
 
 
 "block.dwarfcivilisation.silver_slab": "Dalle en Argent",

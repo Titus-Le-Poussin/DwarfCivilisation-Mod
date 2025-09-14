@@ -9,7 +9,9 @@ public enum ModItemTier implements IItemTier {
     STEEL(3, 1500, 5f, 2f, 10,
             () -> Ingredient.fromItems(ModItems.STEEL_INGOTS.get())),
     RUNIC(3, 1700, 6f, 2f, 10,
-                  () -> Ingredient.fromItems(ModItems.ONYX.get(), ModItems.TOPAZ.get()));
+                  () -> Ingredient.fromItems(ModItems.ONYX.get(), ModItems.TOPAZ.get())),
+    MYTHRIL(3, 1700, 6f, 2f, 10,
+            () -> Ingredient.fromItems(ModItems.MYTHRIL_INGOTS.get()));
 
 
 

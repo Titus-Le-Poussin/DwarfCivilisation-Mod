@@ -54,6 +54,9 @@ public class AutoSmeltPickaxeItem extends PickaxeItem {
         else if (block == Blocks.ANCIENT_DEBRIS) {
             return new ItemStack(Items.NETHERITE_SCRAP);
         }
+        else if (block == Blocks.STONE) {
+            return new ItemStack(Items.STONE);
+        }
         else if (block == Blocks.SAND) {
             return new ItemStack(Blocks.GLASS);
         }
@@ -65,6 +68,27 @@ public class AutoSmeltPickaxeItem extends PickaxeItem {
         }
         else if (block == ModBlocks.SILVER_ORE.get()){
             return new ItemStack(ModItems.SILVER_INGOT.get());
+        }
+        else if (block == ModBlocks.AZURE_ORE.get()){
+            return new ItemStack(ModItems.AZURE.get());
+        }
+        else if (block == ModBlocks.PURITY_ORE.get()){
+            return new ItemStack(ModItems.PURITY_FRAGMENT.get());
+        }
+        else if (block == ModBlocks.EMBER_BLOCK.get()){
+            return new ItemStack(ModItems.EMBER_BRICK.get());
+        }
+        else if (block == ModBlocks.ONYX_ARDOISE_ORE.get()){
+            return new ItemStack(ModItems.ONYX.get());
+        }
+        else if (block == ModBlocks.TOPAZ_BLOCK.get()){
+            return new ItemStack(ModItems.TOPAZ.get());
+        }
+        else if (block == ModBlocks.RUBY_BLOCK.get()){
+            return new ItemStack(ModItems.RUBY.get());
+        }
+        else if (block == ModBlocks.MYTHRIL_ORE.get()){
+            return new ItemStack(ModItems.MYTHRIL_INGOTS.get());
         }
 
         return ItemStack.EMPTY;

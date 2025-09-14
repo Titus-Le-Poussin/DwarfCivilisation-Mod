@@ -2,6 +2,7 @@ package net.TitusTheDuck.dwarfcivilisation.item;
 
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.AutoSmeltPickaxeItem;
+import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerItem;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerRunicItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
@@ -82,10 +83,45 @@ public class ModItems {
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
 
+    public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer",
+            () -> new HammerItem(ModItemTier.RUNIC, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
 
 
-                                //Item
+
+
+                        public static final RegistryObject<Item> MYTHRIL_SWORD = ITEMS.register("mythril_sword",
+            () -> new SwordItem(ModItemTier.MYTHRIL, 6, 3f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
+    public static final RegistryObject<Item> MYTHRIL_PICKAXE = ITEMS.register("mythril_pickaxe",
+            () -> new AutoSmeltPickaxeItem(ModItemTier.MYTHRIL, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> MYTHRIL_AXE = ITEMS.register("mythril_axe",
+            () -> new net.minecraft.item.AxeItem(ModItemTier.MYTHRIL, 6, -5.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> MYTHRIL_SHOVEL = ITEMS.register("mythril_shovel",
+            () -> new net.minecraft.item.ShovelItem(ModItemTier.MYTHRIL, 1.5f, -3.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+    public static final RegistryObject<Item> MYTHRIL_HOE = ITEMS.register("mythril_hoe",
+            () -> new net.minecraft.item.HoeItem(ModItemTier.MYTHRIL, -3, 0.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
+    //Item
 
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
