@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " s ",
+    " a "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:steel_ingots"
+    },
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": "dwarfcivilisation:ruby"
+  },
+  "result": {
+    "item": "dwarfcivilisation:bloodforge_shovel",
+    "count": 1
+  }
+}

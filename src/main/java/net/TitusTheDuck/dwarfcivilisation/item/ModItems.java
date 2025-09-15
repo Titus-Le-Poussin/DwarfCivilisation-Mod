@@ -91,11 +91,9 @@ public class ModItems {
 
 
 
-                        public static final RegistryObject<Item> MYTHRIL_SWORD = ITEMS.register("mythril_sword",
+    public static final RegistryObject<Item> MYTHRIL_SWORD = ITEMS.register("mythril_sword",
             () -> new SwordItem(ModItemTier.MYTHRIL, 6, 3f,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
 
 
     public static final RegistryObject<Item> MYTHRIL_PICKAXE = ITEMS.register("mythril_pickaxe",
@@ -117,6 +115,40 @@ public class ModItems {
     public static final RegistryObject<Item> MYTHRIL_HOE = ITEMS.register("mythril_hoe",
             () -> new net.minecraft.item.HoeItem(ModItemTier.MYTHRIL, -3, 0.0f,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
+
+
+
+
+    public static final RegistryObject<Item> BLOODFORGE_SWORD = ITEMS.register("bloodforge_sword",
+            () -> new SwordItem(ModItemTier.BLOODFORGE, 6, 3f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> BLOODFORGE_PICKAXE = ITEMS.register("bloodforge_pickaxe",
+            () -> new AutoSmeltPickaxeItem(ModItemTier.BLOODFORGE, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> BLOODFORGE_AXE = ITEMS.register("bloodforge_axe",
+            () -> new net.minecraft.item.AxeItem(ModItemTier.BLOODFORGE, 6, -5.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> BLOODFORGE_SHOVEL = ITEMS.register("bloodforge_shovel",
+            () -> new net.minecraft.item.ShovelItem(ModItemTier.BLOODFORGE, 1.5f, -3.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+    public static final RegistryObject<Item> BLOODFORGE_HOE = ITEMS.register("bloodforge_hoe",
+            () -> new net.minecraft.item.HoeItem(ModItemTier.BLOODFORGE, -3, 0.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
 
 
 

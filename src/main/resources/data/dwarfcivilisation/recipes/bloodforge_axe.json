@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " sb",
+    " ab",
+    " a "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:steel_ingots"
+    },
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": "dwarfcivilisation:ruby"
+  },
+  "result": {
+    "item": "dwarfcivilisation:bloodforge_axe",
+    "count": 1
+  }
+}

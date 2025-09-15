@@ -11,7 +11,11 @@ public enum ModItemTier implements IItemTier {
     RUNIC(3, 1700, 6f, 2f, 10,
                   () -> Ingredient.fromItems(ModItems.ONYX.get(), ModItems.TOPAZ.get())),
     MYTHRIL(3, 1700, 6f, 2f, 10,
-            () -> Ingredient.fromItems(ModItems.MYTHRIL_INGOTS.get()));
+            () -> Ingredient.fromItems(ModItems.MYTHRIL_INGOTS.get())),
+    BLOODFORGE(3, 1700, 6f, 2f, 10,
+                    () -> Ingredient.fromItems(ModItems.STEEL_INGOTS.get(), ModItems.RUBY.get())),
+    ROYAL(3, 1700, 6f, 2f, 10,
+                       () -> Ingredient.fromItems(ModItems.SILVER_INGOT.get(), ModItems.AZURE.get()));
 
 
 
