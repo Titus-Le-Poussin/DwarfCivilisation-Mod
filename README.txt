@@ -2,6 +2,7 @@ Furnace fonctionne pas
 slab stair Walls
 vérifier les craft des items  tools 
 
+faire la config des tools
 
 
 
@@ -26,6 +27,7 @@ steel_sword       (2 steel_ingots + 1 stick)
 steel_axe         (3 steel_ingots + 2 stick)
 steel_shovel      (1 steel_ingot + 2 stick)
 steel_hoe         (2 steel_ingots + 2 stick)
+
 steel_forreur     (mining 9*9)
 
 
