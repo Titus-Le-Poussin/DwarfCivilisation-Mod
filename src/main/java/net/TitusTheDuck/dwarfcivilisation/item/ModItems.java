@@ -22,131 +22,6 @@ public class ModItems {
 
 
         
-                                //Tools
-
-    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword",
-            () -> new SwordItem(ModItemTier.STEEL, 6, 3f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-        public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe",
-            () -> new net.minecraft.item.PickaxeItem(ModItemTier.STEEL, 1, -2.8f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-        public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe",
-            () -> new net.minecraft.item.AxeItem(ModItemTier.STEEL, 5, -5.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-        
-        public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel",
-            () -> new net.minecraft.item.ShovelItem(ModItemTier.STEEL, 1.5f, -3.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-
-        public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
-            () -> new net.minecraft.item.HoeItem(ModItemTier.STEEL, -3, 0.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-
-    public static final RegistryObject<Item> RUNIC_SWORD = ITEMS.register("runic_sword",
-            () -> new SwordItem(ModItemTier.RUNIC, 6, 3f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-
-
-    public static final RegistryObject<Item> RUNIC_PICKAXE = ITEMS.register("runic_pickaxe",
-            () -> new AutoSmeltPickaxeItem(ModItemTier.RUNIC, 1, -2.8f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> RUNIC_AXE = ITEMS.register("runic_axe",
-            () -> new net.minecraft.item.AxeItem(ModItemTier.RUNIC, 6, -5.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> RUNIC_SHOVEL = ITEMS.register("runic_shovel",
-            () -> new net.minecraft.item.ShovelItem(ModItemTier.RUNIC, 1.5f, -3.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-
-    public static final RegistryObject<Item> RUNIC_HOE = ITEMS.register("runic_hoe",
-            () -> new net.minecraft.item.HoeItem(ModItemTier.RUNIC, -3, 0.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-    public static final RegistryObject<Item> RUNIC_HAMMER = ITEMS.register("runic_hammer",
-            () -> new HammerRunicItem(ModItemTier.RUNIC, 1, -2.8f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer",
-            () -> new HammerItem(ModItemTier.RUNIC, 1, -2.8f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-
-
-
-    public static final RegistryObject<Item> MYTHRIL_SWORD = ITEMS.register("mythril_sword",
-            () -> new SwordItem(ModItemTier.MYTHRIL, 6, 3f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> MYTHRIL_PICKAXE = ITEMS.register("mythril_pickaxe",
-            () -> new AutoSmeltPickaxeItem(ModItemTier.MYTHRIL, 1, -2.8f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> MYTHRIL_AXE = ITEMS.register("mythril_axe",
-            () -> new net.minecraft.item.AxeItem(ModItemTier.MYTHRIL, 6, -5.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> MYTHRIL_SHOVEL = ITEMS.register("mythril_shovel",
-            () -> new net.minecraft.item.ShovelItem(ModItemTier.MYTHRIL, 1.5f, -3.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-
-    public static final RegistryObject<Item> MYTHRIL_HOE = ITEMS.register("mythril_hoe",
-            () -> new net.minecraft.item.HoeItem(ModItemTier.MYTHRIL, -3, 0.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-
-
-
-
-
-
-    public static final RegistryObject<Item> BLOODFORGE_SWORD = ITEMS.register("bloodforge_sword",
-            () -> new SwordItem(ModItemTier.BLOODFORGE, 6, 3f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> BLOODFORGE_PICKAXE = ITEMS.register("bloodforge_pickaxe",
-            () -> new AutoSmeltPickaxeItem(ModItemTier.BLOODFORGE, 1, -2.8f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> BLOODFORGE_AXE = ITEMS.register("bloodforge_axe",
-            () -> new net.minecraft.item.AxeItem(ModItemTier.BLOODFORGE, 6, -5.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-    public static final RegistryObject<Item> BLOODFORGE_SHOVEL = ITEMS.register("bloodforge_shovel",
-            () -> new net.minecraft.item.ShovelItem(ModItemTier.BLOODFORGE, 1.5f, -3.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
-
-
-
-    public static final RegistryObject<Item> BLOODFORGE_HOE = ITEMS.register("bloodforge_hoe",
-            () -> new net.minecraft.item.HoeItem(ModItemTier.BLOODFORGE, -3, 0.0f,
-                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
 
 
@@ -505,6 +380,131 @@ public class ModItems {
     public static final RegistryObject<Item> WHEAT_BEER_PINT = ITEMS.register("wheat_beer_pint",
             () -> new Item(new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_FOOD_GROUP)
                     .food(new Food.Builder().hunger(6).saturation(0.5F).build())));
+
+
+
+
+
+    //Tools
+
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword",
+            () -> new SwordItem(ModItemTier.STEEL, 6, 3f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe",
+            () -> new net.minecraft.item.PickaxeItem(ModItemTier.STEEL, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe",
+            () -> new net.minecraft.item.AxeItem(ModItemTier.STEEL, 5, -5.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel",
+            () -> new net.minecraft.item.ShovelItem(ModItemTier.STEEL, 1.5f, -3.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe",
+            () -> new net.minecraft.item.HoeItem(ModItemTier.STEEL, -3, 0.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+    public static final RegistryObject<Item> RUNIC_SWORD = ITEMS.register("runic_sword",
+            () -> new SwordItem(ModItemTier.RUNIC, 6, 3f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
+    public static final RegistryObject<Item> RUNIC_PICKAXE = ITEMS.register("runic_pickaxe",
+            () -> new AutoSmeltPickaxeItem(ModItemTier.RUNIC, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> RUNIC_AXE = ITEMS.register("runic_axe",
+            () -> new net.minecraft.item.AxeItem(ModItemTier.RUNIC, 6, -5.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> RUNIC_SHOVEL = ITEMS.register("runic_shovel",
+            () -> new net.minecraft.item.ShovelItem(ModItemTier.RUNIC, 1.5f, -3.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+    public static final RegistryObject<Item> RUNIC_HOE = ITEMS.register("runic_hoe",
+            () -> new net.minecraft.item.HoeItem(ModItemTier.RUNIC, -3, 0.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RUNIC_HAMMER = ITEMS.register("runic_hammer",
+            () -> new HammerRunicItem(ModItemTier.RUNIC, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer",
+            () -> new HammerItem(ModItemTier.RUNIC, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
+
+    public static final RegistryObject<Item> MYTHRIL_SWORD = ITEMS.register("mythril_sword",
+            () -> new SwordItem(ModItemTier.MYTHRIL, 6, 3f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> MYTHRIL_PICKAXE = ITEMS.register("mythril_pickaxe",
+            () -> new AutoSmeltPickaxeItem(ModItemTier.MYTHRIL, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> MYTHRIL_AXE = ITEMS.register("mythril_axe",
+            () -> new net.minecraft.item.AxeItem(ModItemTier.MYTHRIL, 6, -5.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> MYTHRIL_SHOVEL = ITEMS.register("mythril_shovel",
+            () -> new net.minecraft.item.ShovelItem(ModItemTier.MYTHRIL, 1.5f, -3.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+    public static final RegistryObject<Item> MYTHRIL_HOE = ITEMS.register("mythril_hoe",
+            () -> new net.minecraft.item.HoeItem(ModItemTier.MYTHRIL, -3, 0.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
+
+
+
+
+    public static final RegistryObject<Item> BLOODFORGE_SWORD = ITEMS.register("bloodforge_sword",
+            () -> new SwordItem(ModItemTier.BLOODFORGE, 6, 3f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> BLOODFORGE_PICKAXE = ITEMS.register("bloodforge_pickaxe",
+            () -> new AutoSmeltPickaxeItem(ModItemTier.BLOODFORGE, 1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> BLOODFORGE_AXE = ITEMS.register("bloodforge_axe",
+            () -> new net.minecraft.item.AxeItem(ModItemTier.BLOODFORGE, 6, -5.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> BLOODFORGE_SHOVEL = ITEMS.register("bloodforge_shovel",
+            () -> new net.minecraft.item.ShovelItem(ModItemTier.BLOODFORGE, 1.5f, -3.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> BLOODFORGE_HOE = ITEMS.register("bloodforge_hoe",
+            () -> new net.minecraft.item.HoeItem(ModItemTier.BLOODFORGE, -3, 0.0f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
 
 

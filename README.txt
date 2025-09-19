@@ -1,9 +1,7 @@
 Furnace fonctionne pas
-
-sunstone MOCHE
-
 slab stair Walls
-		
+vérifier les craft des items  tools 
+
 
 
 
