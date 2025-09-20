@@ -6,15 +6,15 @@ import net.minecraft.util.LazyValue;
 import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
-    STEEL(3, 1500, 5f, 2f, 10,
+    STEEL(2, 750, 6f, 2f, 14,
             () -> Ingredient.fromItems(ModItems.STEEL_INGOTS.get())),
-    RUNIC(3, 1700, 6f, 2f, 10,
+    RUNIC(4, 2000, 9f, 4f, 22,
                   () -> Ingredient.fromItems(ModItems.ONYX.get(), ModItems.TOPAZ.get())),
-    MYTHRIL(3, 1700, 6f, 2f, 10,
+    MYTHRIL(3, 1500, 8f, 3f, 18,
             () -> Ingredient.fromItems(ModItems.MYTHRIL_INGOTS.get())),
-    BLOODFORGE(3, 1700, 6f, 2f, 10,
+    BLOODFORGE(3, 1800, 8.5f, 3.5f, 22,
                     () -> Ingredient.fromItems(ModItems.STEEL_INGOTS.get(), ModItems.RUBY.get())),
-    ROYAL(3, 1700, 6f, 2f, 10,
+    ROYAL(4, 2500, 10f, 5f, 25,
                        () -> Ingredient.fromItems(ModItems.SILVER_INGOT.get(), ModItems.AZURE.get()));
 
 

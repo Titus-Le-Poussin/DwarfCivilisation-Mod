@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " s ",
+    " a "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:silver_ingot"
+    },
+    "a": {
+      "item": "dwarfcivilisation:purity_stick"
+    },
+    "b": "dwarfcivilisation:azure"
+  },
+  "result": {
+    "item": "dwarfcivilisation:royal_shovel",
+    "count": 1
+  }
+}

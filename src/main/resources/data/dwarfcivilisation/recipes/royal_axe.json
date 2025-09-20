@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " sb",
+    " ab",
+    " a "
+  ],
+  "key": {
+    "s": {
+      "item": "dwarfcivilisation:silver_ingot"
+    },
+    "a": {
+      "item": "dwarfcivilisation:purity_stick"
+    },
+    "b": "dwarfcivilisation:azure"
+  },
+  "result": {
+    "item": "dwarfcivilisation:royal_axe",
+    "count": 1
+  }
+}
