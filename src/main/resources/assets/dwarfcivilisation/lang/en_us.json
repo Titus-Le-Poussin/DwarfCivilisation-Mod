@@ -92,6 +92,11 @@
   "block.dwarfcivilisation.diamond_dwarf_brick": "Diamond Dwarf Brick",
   "block.dwarfcivilisation.steel_block": "Steel Block",
 
+  "item.dwarfcivilisation.steel_boots": "Steel Boots",
+  "item.dwarfcivilisation.steel_chestplate": "Steel Chestplate",
+  "item.dwarfcivilisation.steel_leggings": "Steel Leggings",
+  "item.dwarfcivilisation.steel_helmet": "Steel Helmet",
+
 
   "item.dwarfcivilisation.steel_sword": "Steel Sword",
   "item.dwarfcivilisation.steel_pickaxe": "Steel Pickaxe",

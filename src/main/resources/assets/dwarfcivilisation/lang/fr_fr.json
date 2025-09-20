@@ -104,6 +104,11 @@
   "item.dwarfcivilisation.runic_hoe": "Houe Runique",
   "item.dwarfcivilisation.runic_hammer": "Marteau Runique",
 
+  "item.dwarfcivilisation.steel_boots": "Bottes d'Acier",
+  "item.dwarfcivilisation.steel_chestplate": "Torse d'Acier",
+  "item.dwarfcivilisation.steel_leggings": "Jambiere d'Acier",
+  "item.dwarfcivilisation.steel_helmet": "Casque d'Acier",
+
   "item.dwarfcivilisation.royal_sword": "Épée Royal",
   "item.dwarfcivilisation.royal_pickaxe": "Pioche Royal",
   "item.dwarfcivilisation.royal_axe": "Hache Royal",

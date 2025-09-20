@@ -4,16 +4,21 @@ package net.TitusTheDuck.dwarfcivilisation.item;
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 import net.minecraft.util.SoundEvent;
+import net.minecraft.util.SoundEvents;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
-    ;
+
+    STEEL("steel", 17, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.fromItems(ModItems.STEEL_INGOTS.get());
+    });
 
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

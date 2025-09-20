@@ -4,6 +4,8 @@ import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.AutoSmeltPickaxeItem;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerItem;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerRunicItem;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
@@ -528,6 +530,26 @@ public class ModItems {
     public static final RegistryObject<Item> ROYAL_HOE = ITEMS.register("royal_hoe",
             () -> new net.minecraft.item.HoeItem(ModItemTier.ROYAL, -1, 1.2f,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
+    // armor
+
+    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots",
+            () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+    public static final RegistryObject<Item> STEEL_CHESTPLATE = ITEMS.register("steel_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+    public static final RegistryObject<Item> STEEL_LEGGINGS = ITEMS.register("steel_leggings",
+            () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet",
+            () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
 
 
 
