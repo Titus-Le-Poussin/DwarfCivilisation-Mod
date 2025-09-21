@@ -550,6 +550,10 @@ public class ModItems {
     public static final RegistryObject<Item> MURD_HAMMER = ITEMS.register("murd_hammer",
             () -> new waritem(ModItemTier.STEEL, 8, -1.8f,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+    public static final RegistryObject<Item> MOUNTAIN_CLEAVER = ITEMS.register("mountain_cleaver",
+            () -> new waritem(ModItemTier.STEEL, 5, -3f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
 
 
 
