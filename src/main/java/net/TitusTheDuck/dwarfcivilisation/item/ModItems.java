@@ -4,6 +4,8 @@ import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.AutoSmeltPickaxeItem;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerItem;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerRunicItem;
+import net.TitusTheDuck.dwarfcivilisation.item.custom.waritem;
+import net.TitusTheDuck.dwarfcivilisation.item.custom.waritem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Food;
@@ -534,6 +536,24 @@ public class ModItems {
 
 
 
+
+
+
+
+//SPECIAL ITEM
+
+    //public static final RegistryObject<Item> WAR_AXE = ITEMS.register("war_axe",
+            //() -> new waritem(ModItemTier.STEEL, 8, -1.8f,
+                    //new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> MURD_HAMMER = ITEMS.register("murd_hammer",
+            () -> new waritem(ModItemTier.STEEL, 8, -1.8f,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+
+
     // armor
 
     public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots",
@@ -549,6 +569,36 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet",
             () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.HEAD,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<Item> RENFORCED_STEEL_BOOTS = ITEMS.register("renforced_steel_boots",
+            () -> new ArmorItem(ModArmorMaterial.RENFORCED_STEEL, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+    public static final RegistryObject<Item> RENFORCED_STEEL_CHESTPLATE = ITEMS.register("renforced_steel_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.RENFORCED_STEEL, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+    public static final RegistryObject<Item> RENFORCED_STEEL_LEGGINGS = ITEMS.register("renforced_steel_leggings",
+            () -> new ArmorItem(ModArmorMaterial.RENFORCED_STEEL, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RENFORCED_STEEL_HELMET = ITEMS.register("renforced_steel_helmet",
+            () -> new ArmorItem(ModArmorMaterial.RENFORCED_STEEL, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RUBACIER_BOOTS = ITEMS.register("rubacier_boots",
+            () -> new ArmorItem(ModArmorMaterial.RUBACIER, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+    public static final RegistryObject<Item> RUBACIER_CHESTPLATE = ITEMS.register("rubacier_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.RUBACIER, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+    public static final RegistryObject<Item> RUBACIER_LEGGINGS = ITEMS.register("rubacier_leggings",
+            () -> new ArmorItem(ModArmorMaterial.RUBACIER, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<Item> RUBACIER_HELMET = ITEMS.register("rubacier_helmet",
+            () -> new ArmorItem(ModArmorMaterial.RUBACIER, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
 
 
 

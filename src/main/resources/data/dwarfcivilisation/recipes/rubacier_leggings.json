@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "a a",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "dwarfcivilisation:steel_ingots"
+    },
+    "b": {
+      "item": "dwarfcivilisation:ruby"
+    }
+  },
+  "result": {
+    "item": "dwarfcivilisation:rubacier_leggings"
+  }
+}

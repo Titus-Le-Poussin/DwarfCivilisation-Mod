@@ -12,12 +12,21 @@ import net.minecraft.util.SoundEvents;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
+import net.minecraft.item.ArmorMaterial;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
 
     STEEL("steel", 17, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.fromItems(ModItems.STEEL_INGOTS.get());
+    }),
+
+    RUBACIER("rubacier", 25, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F, 0.1F, () -> {
+        return Ingredient.fromItems(ModItems.STEEL_INGOTS.get(), ModItems.RUBY.get());
+    }),
+
+    RENFORCED_STEEL("renforced_steel", 30, new int[]{3, 7, 9, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0F, 0.2F, () -> {
+            return Ingredient.fromItems(ModItems.RENFORCED_STEEL_INGOTS.get());
     });
 
 

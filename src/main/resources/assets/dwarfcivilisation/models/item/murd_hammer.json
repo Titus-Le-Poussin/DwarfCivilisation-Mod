@@ -1,0 +1,28 @@
+{
+  "parent": "dwarfcivilisation:item/custom/murd_hammer",
+  "textures": {
+    "layer0": "dwarfcivilisation:item/tools/murd_hammer"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 90, 0],
+      "translation": [0, 0, 0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, 0],
+      "translation": [0, 0, 0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 90, 0],
+      "translation": [1.5, 4, 0],
+      "scale": [1.0, 1.0, 1.0]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, 0],
+      "translation": [1.5, 4, 0],
+      "scale": [1.0, 1.0, 1.0]
+    }
+  }
+}
