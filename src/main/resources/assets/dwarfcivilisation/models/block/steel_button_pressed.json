@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "dwarfcivilisation:block/steel_block"
+  }
+}

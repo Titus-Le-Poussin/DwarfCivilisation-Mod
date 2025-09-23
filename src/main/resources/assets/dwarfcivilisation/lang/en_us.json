@@ -73,7 +73,8 @@
   "item.dwarfcivilisation.mush_beer_pint": "Mush Beer Pint",
   "item.dwarfcivilisation.potato_ale_bottle": "Potato Ale Bottle",
   "item.dwarfcivilisation.wheat_beer_pint": "Wheat Beer Pint",
-
+  "block.dwarfcivilisation.steel_pressure_plate": "Steel Pressure Plate",
+  "block.dwarfcivilisation.steel_button": "Steel Button",
   "block.dwarfcivilisation.azure_ore": "Azure Ore",
   "block.dwarfcivilisation.ruby_ore": "Ruby Ore",
   "block.dwarfcivilisation.mythril_ore": "Mythril Ore",

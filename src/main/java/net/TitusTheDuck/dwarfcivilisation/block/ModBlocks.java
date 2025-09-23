@@ -4,8 +4,11 @@ import net.TitusTheDuck.dwarfcivilisation.item.ModItemGroup;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.PressurePlateBlock;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.StairsBlock;
+import net.minecraft.block.StoneButtonBlock;
+import net.minecraft.block.PressurePlateBlock.Sensitivity;
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
@@ -161,7 +164,19 @@ public class ModBlocks {
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(5f)));
 
+    public static final RegistryObject<Block> STEEL_BUTTON = registerBlock("steel_button",
+            () -> new StoneButtonBlock(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f).doesNotBlockMovement()));
 
+    public static final RegistryObject<Block> STEEL_PRESSURE_PLATE = registerBlock("steel_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f)));
 
 
 
