@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "dwarfcivilisation:block/steel_door_top",
+    "bottom": "dwarfcivilisation:block/steel_door_bottom"
+  }
+}

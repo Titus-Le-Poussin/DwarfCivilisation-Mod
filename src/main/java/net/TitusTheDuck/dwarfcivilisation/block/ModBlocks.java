@@ -2,12 +2,7 @@ package net.TitusTheDuck.dwarfcivilisation.block;
 
 import net.TitusTheDuck.dwarfcivilisation.item.ModItemGroup;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.PressurePlateBlock;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
-import net.minecraft.block.StoneButtonBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.PressurePlateBlock.Sensitivity;
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
 import net.minecraft.block.material.Material;
@@ -177,6 +172,23 @@ public class ModBlocks {
                     .harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE).setRequiresTool()
                     .hardnessAndResistance(5f)));
+
+
+
+    public static final RegistryObject<Block> STEEL_DOOR = registerBlock("steel_door",
+            () -> new DoorBlock(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f).notSolid()));
+
+    public static final RegistryObject<Block> STEEL_TRAPDOOR = registerBlock("steel_trapdoor",
+            () -> new TrapDoorBlock(AbstractBlock.Properties
+                    .create(Material.IRON)
+                    .harvestLevel(2)
+                    .harvestTool(ToolType.PICKAXE).setRequiresTool()
+                    .hardnessAndResistance(5f).notSolid()));
+
 
 
 

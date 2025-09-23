@@ -9,6 +9,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScreenManager;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -72,6 +74,10 @@ public class DwarfCivilisationMod
 
 private void doClientStuff(final FMLClientSetupEvent event) {
     ScreenManager.registerFactory(ModContainers.DWARF_FURNACE_CONTAINER.get(), DwarfFurnaceScreen::new);
+    event.enqueueWork(() -> {
+        RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_DOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_TRAPDOOR.get(), RenderType.getCutout());
+    });
 
 
 }

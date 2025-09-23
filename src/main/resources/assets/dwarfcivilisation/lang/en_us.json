@@ -92,6 +92,8 @@
   "block.dwarfcivilisation.gold_dwarf_brick": "Gold Dwarf Brick",
   "block.dwarfcivilisation.diamond_dwarf_brick": "Diamond Dwarf Brick",
   "block.dwarfcivilisation.steel_block": "Steel Block",
+  "block.dwarfcivilisation.steel_door": "Steel Door",
+  "block.dwarfcivilisation.steel_trapdoor": "Steel Trapdoor",
 
   "item.dwarfcivilisation.steel_boots": "Steel Boots",
   "item.dwarfcivilisation.steel_chestplate": "Steel Chestplate",
