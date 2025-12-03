@@ -1,3 +1,3 @@
 {
-  "parent": "minecraft:block/steel_trapdoor"
+  "parent" : "dwarfcivilisation:block/steel_trapdoor_bottom"
 }
