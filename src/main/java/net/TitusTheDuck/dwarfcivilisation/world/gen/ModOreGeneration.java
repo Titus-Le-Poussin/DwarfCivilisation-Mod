@@ -18,9 +18,6 @@ import net.minecraft.world.gen.feature.template.BlockMatchRuleTest;
 public class ModOreGeneration {
 
     public static void generateOres(final BiomeLoadingEvent event) {
-
-
-
         for (OreType ore : OreType.values()) {
             if (ore == OreType.AZURE && event.getCategory() != Biome.Category.OCEAN) {
                 continue;
@@ -30,10 +27,10 @@ public class ModOreGeneration {
                 continue;
             }
             if (ore == OreType.EMBER) {
-                continue;
+                generateEmberOre(event);
             }
             if (ore == OreType.ONYX_ARDOISE) {
-                continue;
+                generateOnyxArdoiseOre(event);
             }
 
             OreFeatureConfig oreFeatureConfig = new OreFeatureConfig(
@@ -56,8 +53,8 @@ public class ModOreGeneration {
             event.getGeneration()
                     .withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, oreFeature);
         }
-        //generateEmberOre(event);
-        generateOnyxArdoiseOre(event);
+
+
     }
 
 
@@ -84,35 +81,29 @@ public class ModOreGeneration {
 
 
     private static void generateEmberOre(final BiomeLoadingEvent event) {
-
+        BlockMatchRuleTest emberTarget = new BlockMatchRuleTest(ModBlocks.EMBER_BLOCK.get());
 
         OreFeatureConfig oreFeatureConfig = new OreFeatureConfig(
-                OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
+                emberTarget,
                 ModBlocks.EMBER_BLOCK.get().getDefaultState(),
                 3
         );
+
 
         ConfiguredPlacement<TopSolidRangeConfig> configuredPlacement = Placement.RANGE.configure(
                 new TopSolidRangeConfig(1, 1, 30)
         );
 
-        ConfiguredFeature<?, ?> oreFeature = Registry.register(
-                WorldGenRegistries.CONFIGURED_FEATURE,
-                new ResourceLocation("dwarfcivilisation", "ember_block"),
-                ModFeatures.EMBER_FEATURE.get()
-                        .withConfiguration(oreFeatureConfig)
-                        .withPlacement(configuredPlacement)
-                        .square()
-                        .count(6)
-        );
+        ConfiguredFeature<?, ?> oreFeature = Feature.ORE
+                .withConfiguration(oreFeatureConfig)
+                .withPlacement(configuredPlacement)
+                .square()
+                .count(6);
+
 
         event.getGeneration()
                 .withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, oreFeature);
     }
-
-
-
-
 
 
     private static void generateOnyxArdoiseOre(final BiomeLoadingEvent event) {
@@ -132,7 +123,7 @@ public class ModOreGeneration {
                 .withConfiguration(oreFeatureConfig)
                 .withPlacement(configuredPlacement)
                 .square()
-                .count(15);
+                .count(3);
 
         event.getGeneration()
                 .withFeature(GenerationStage.Decoration.UNDERGROUND_ORES, oreFeature);
