@@ -5,6 +5,7 @@ import net.TitusTheDuck.dwarfcivilisation.container.ModContainers;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.TitusTheDuck.dwarfcivilisation.screen.DwarfFurnaceScreen;
 import net.TitusTheDuck.dwarfcivilisation.tileentity.ModTileEntities;
+import net.TitusTheDuck.dwarfcivilisation.world.structure.ModStructures;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.Minecraft;
@@ -48,6 +49,7 @@ public class DwarfCivilisationMod
         ModBlocks.register(eventBus);
         ModTileEntities.register(eventBus);
         ModContainers.register(eventBus);
+        ModStructures.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
@@ -68,6 +70,10 @@ public class DwarfCivilisationMod
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
 
+
+        event.enqueueWork(() -> {
+            ModStructures.setupStructures();
+        });
      
 
     }
