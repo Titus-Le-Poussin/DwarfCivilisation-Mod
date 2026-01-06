@@ -1,10 +1,8 @@
 package net.TitusTheDuck.dwarfcivilisation.item;
 
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
-import net.TitusTheDuck.dwarfcivilisation.item.custom.AutoSmeltPickaxeItem;
-import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerItem;
-import net.TitusTheDuck.dwarfcivilisation.item.custom.HammerRunicItem;
-import net.TitusTheDuck.dwarfcivilisation.item.custom.waritem;
+import net.TitusTheDuck.dwarfcivilisation.entity.custom.ModEntityTypes;
+import net.TitusTheDuck.dwarfcivilisation.item.custom.*;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.waritem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
@@ -550,6 +548,7 @@ public class ModItems {
     public static final RegistryObject<Item> MURD_HAMMER = ITEMS.register("murd_hammer",
             () -> new waritem(ModItemTier.STEEL, 8, -1.8f,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
     public static final RegistryObject<Item> MOUNTAIN_CLEAVER = ITEMS.register("mountain_cleaver",
             () -> new waritem(ModItemTier.STEEL, 5, -3f,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
@@ -608,6 +607,21 @@ public class ModItems {
 
 
 
+
+        // special item Egg
+
+
+    public static final RegistryObject<ModSpawnEggItem> DWARF_WARRIOR_SPAWN_EGG = ITEMS.register("dwarf_warrior_spawnegg",
+            () -> new ModSpawnEggItem(ModEntityTypes.DWARF_WARRIOR, 0x879995, 0x576ABC,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<ModSpawnEggItem> DWARF_SENTINEL_SPAWN_EGG = ITEMS.register("dwarf_sentinel_spawnegg",
+            () -> new ModSpawnEggItem(ModEntityTypes.DWARF_SENTINEL, 0x879995, 0xCD7F32,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<ModSpawnEggItem> DWARF_BARMAN_SPAWN_EGG = ITEMS.register("dwarf_barman_spawnegg",
+            () -> new ModSpawnEggItem(ModEntityTypes.DWARF_BARMAN, 0x879995, 0xFFD700,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
 
 

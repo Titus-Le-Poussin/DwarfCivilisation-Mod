@@ -235,5 +235,10 @@
   "screen.dwarfcivilisation.dwarf_furnace": "Four Nain",
   "itemGroup.DwarfBlockTab": "Dwarf Block",
   "itemGroup.DwarfItemTab": "Dwarf Item",
-  "itemGroup.DwarfFoodTab": "Dwarf Food"
+  "itemGroup.DwarfFoodTab": "Dwarf Food",
+
+
+  "item.dwarfcivilisation.dwarf_warrior_spawnegg": "Oeuf de Guerrier Nain",
+  "item.dwarfcivilisation.dwarf_barman_spawnegg": "Oeuf de Barman Nain",
+  "item.dwarfcivilisation.dwarf_sentinel_spawnegg": "Oeuf de Sentinel Nain"
 }

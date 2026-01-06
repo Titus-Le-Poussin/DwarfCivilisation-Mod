@@ -2,16 +2,15 @@ package net.TitusTheDuck.dwarfcivilisation.entity.custom;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.merchant.villager.VillagerEntity;
-import net.minecraft.entity.monster.MonsterEntity;
-import net.minecraft.entity.monster.ZombieEntity;
-import net.minecraft.entity.monster.SkeletonEntity;
 import net.minecraft.entity.monster.CreeperEntity;
+import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.monster.SkeletonEntity;
+import net.minecraft.entity.monster.ZombieEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.SoundEvent;
@@ -19,9 +18,9 @@ import net.minecraft.util.SoundEvents;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class DwarfWarriorEntity extends VillagerEntity {
+public class DwarfBarmanEntity extends VillagerEntity {
 
-    public DwarfWarriorEntity(EntityType<? extends VillagerEntity> type, World world) {
+    public DwarfBarmanEntity(EntityType<? extends VillagerEntity> type, World world) {
         super(type, world);
     }
 

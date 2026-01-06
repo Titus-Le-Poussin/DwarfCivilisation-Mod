@@ -3,6 +3,9 @@ package net.TitusTheDuck.dwarfcivilisation;
 import net.TitusTheDuck.dwarfcivilisation.block.ModBlocks;
 import net.TitusTheDuck.dwarfcivilisation.container.ModContainers;
 import net.TitusTheDuck.dwarfcivilisation.entity.custom.ModEntityTypes;
+import net.TitusTheDuck.dwarfcivilisation.entity.render.DwarfBarmanRender;
+import net.TitusTheDuck.dwarfcivilisation.entity.render.DwarfSentinelRender;
+import net.TitusTheDuck.dwarfcivilisation.entity.render.DwarfWarriorRender;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.TitusTheDuck.dwarfcivilisation.screen.DwarfFurnaceScreen;
 import net.TitusTheDuck.dwarfcivilisation.tileentity.ModTileEntities;
@@ -18,6 +21,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -86,6 +90,10 @@ private void doClientStuff(final FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_TRAPDOOR.get(), RenderType.getCutout());
     });
+
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_WARRIOR.get(), DwarfWarriorRender::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_SENTINEL.get(), DwarfSentinelRender::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_BARMAN.get(), DwarfBarmanRender::new);
 
 
 }

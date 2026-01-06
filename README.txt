@@ -258,6 +258,45 @@ war pig			(pig variant) (can be mount like a horse or pig) (can be armored) drop
 
 mountain_goat 		(SheepEntity variant) (Jump high) (can be mount like a horse or pig)
 
+Kobold
+
+Golem de pierre runique
+
+Rôdeur des failles
+
+Ver de roche
+
+Trogg
+
+Gnome
+
+Gremlin de fonderie
+
+
+
+structures =
+
+Forge avec lave
+
+Armurie naine
+
+Entrée de mine (decente circulaire géante)
+
+Maison du tailleur de pierre
+
+Entrepot des profondeurs (coffres organisés par minerais)
+-bras mécanique décoratif
+
+
+Bastion militaire
+-caserne taillé dans la roche
+-Racks d'armes, bannières de clans
+-quartiers soldat
+
+Brasserie du Roc-Ambré
+
+Marché souterrains
+
 
 
 

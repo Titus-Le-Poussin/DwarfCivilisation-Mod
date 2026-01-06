@@ -19,6 +19,18 @@ public class ModEntityTypes {
                     .build(new ResourceLocation(DwarfCivilisationMod.MOD_ID, "dwarf_warrior")
                             .toString()));
 
+    public static final RegistryObject <EntityType<DwarfSentinelEntity>> DWARF_SENTINEL =
+            ENTITY_TYPES.register("dwarf_sentinel", () -> EntityType.Builder.create(DwarfSentinelEntity::new, EntityClassification.CREATURE)
+                    .size(1f, 2f)
+                    .build(new ResourceLocation(DwarfCivilisationMod.MOD_ID, "dwarf_sentinel")
+                            .toString()));
+
+    public static final RegistryObject <EntityType<DwarfBarmanEntity>> DWARF_BARMAN =
+            ENTITY_TYPES.register("dwarf_barman", () -> EntityType.Builder.create(DwarfBarmanEntity::new, EntityClassification.CREATURE)
+                    .size(1f, 2f)
+                    .build(new ResourceLocation(DwarfCivilisationMod.MOD_ID, "dwarf_barman")
+                            .toString()));
+
     public static void register (IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
     }
