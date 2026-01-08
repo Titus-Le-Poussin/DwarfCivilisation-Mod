@@ -10,7 +10,7 @@ import net.minecraft.util.ResourceLocation;
 public class DwarfBarmanRender extends MobRenderer<DwarfBarmanEntity, DwarfBarmanModel> {
 
     private static final ResourceLocation TEXTURE = new ResourceLocation(
-            DwarfCivilisationMod.MOD_ID, "textures/entity/model_dwarf3_basic_1.png");
+            DwarfCivilisationMod.MOD_ID, "textures/entity/dwarf_barman.png");
 
     public DwarfBarmanRender(EntityRendererManager renderManagerIn) {
         super(renderManagerIn, new DwarfBarmanModel(), 0.5f);

@@ -1,10 +1,7 @@
 package net.TitusTheDuck.dwarfcivilisation.events;
 
 import net.TitusTheDuck.dwarfcivilisation.DwarfCivilisationMod;
-import net.TitusTheDuck.dwarfcivilisation.entity.custom.DwarfSentinelEntity;
-import net.TitusTheDuck.dwarfcivilisation.entity.custom.DwarfWarriorEntity;
-import net.TitusTheDuck.dwarfcivilisation.entity.custom.DwarfBarmanEntity;
-import net.TitusTheDuck.dwarfcivilisation.entity.custom.ModEntityTypes;
+import net.TitusTheDuck.dwarfcivilisation.entity.custom.*;
 import net.TitusTheDuck.dwarfcivilisation.item.custom.ModSpawnEggItem;
 import net.minecraft.entity.EntityType;
 import net.minecraftforge.event.RegistryEvent;
@@ -20,6 +17,11 @@ public class ModEventBusEvents {
         event.put(ModEntityTypes.DWARF_WARRIOR.get(), DwarfWarriorEntity.setCustomAttributes().create());
         event.put(ModEntityTypes.DWARF_SENTINEL.get(), DwarfSentinelEntity.setCustomAttributes().create());
         event.put(ModEntityTypes.DWARF_BARMAN.get(), DwarfBarmanEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.KOBOLD_SIMPLE.get(), KoboldEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.DWARF_HERBORIST.get(), DwarfHerboristEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.DWARF_BERSERK.get(), DwarfBerserkEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.DWARF_FORGER.get(), DwarfForgerEntity.setCustomAttributes().create());
+        event.put(ModEntityTypes.DWARF_ALCHEMIST.get(), DwarfAlchemistEntity.setCustomAttributes().create());
 
     }
 

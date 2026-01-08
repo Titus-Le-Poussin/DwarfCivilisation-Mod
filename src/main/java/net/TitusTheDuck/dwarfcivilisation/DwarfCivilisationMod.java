@@ -2,10 +2,11 @@ package net.TitusTheDuck.dwarfcivilisation;
 
 import net.TitusTheDuck.dwarfcivilisation.block.ModBlocks;
 import net.TitusTheDuck.dwarfcivilisation.container.ModContainers;
+import net.TitusTheDuck.dwarfcivilisation.entity.custom.DwarfBerserkEntity;
+import net.TitusTheDuck.dwarfcivilisation.entity.custom.DwarfHerboristEntity;
+import net.TitusTheDuck.dwarfcivilisation.entity.custom.KoboldEntity;
 import net.TitusTheDuck.dwarfcivilisation.entity.custom.ModEntityTypes;
-import net.TitusTheDuck.dwarfcivilisation.entity.render.DwarfBarmanRender;
-import net.TitusTheDuck.dwarfcivilisation.entity.render.DwarfSentinelRender;
-import net.TitusTheDuck.dwarfcivilisation.entity.render.DwarfWarriorRender;
+import net.TitusTheDuck.dwarfcivilisation.entity.render.*;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.TitusTheDuck.dwarfcivilisation.screen.DwarfFurnaceScreen;
 import net.TitusTheDuck.dwarfcivilisation.tileentity.ModTileEntities;
@@ -94,6 +95,11 @@ private void doClientStuff(final FMLClientSetupEvent event) {
     RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_WARRIOR.get(), DwarfWarriorRender::new);
     RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_SENTINEL.get(), DwarfSentinelRender::new);
     RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_BARMAN.get(), DwarfBarmanRender::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_FORGER.get(), DwarfForgerRender::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_HERBORIST.get(), DwarfHerboristEntity::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_ALCHEMIST.get(), DwarfAlchemistRender::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_BERSERK.get(), DwarfBerserkEntity::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.KOBOLD_SIMPLE.get(), KoboldRender::new);
 
 
 }

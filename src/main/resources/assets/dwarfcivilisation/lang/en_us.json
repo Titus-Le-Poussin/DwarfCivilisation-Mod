@@ -239,5 +239,11 @@
 
   "item.dwarfcivilisation.dwarf_warrior_spawnegg": "Dwarf Warrior Spawn Egg",
   "item.dwarfcivilisation.dwarf_sentinel_spawnegg": "Dwarf Sentinel Spawn Egg",
-  "item.dwarfcivilisation.dwarf_barman_spawnegg": "Dwarf Barman Spawn Egg"
+  "item.dwarfcivilisation.dwarf_barman_spawnegg": "Dwarf Barman Spawn Egg",
+  "item.dwarfcivilisation.dwarf_herborist_spawnegg": "Dwarf Herborist Spawn Egg",
+  "item.dwarfcivilisation.dwarf_berserk_spawnegg": "Dwarf Berserk Spawn Egg",
+  "item.dwarfcivilisation.dwarf_forger_spawnegg": "Dwarf Forger Spawn Egg",
+  "item.dwarfcivilisation.dwarf_alchemist_spawnegg": "Dwarf Alchemist Spawn Egg",
+
+  "item.dwarfcivilisation.simple_kobold_spawnegg": "Simple Kobold Spawn Egg"
 }

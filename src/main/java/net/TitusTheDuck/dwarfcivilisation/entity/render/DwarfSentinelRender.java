@@ -10,7 +10,7 @@ import net.minecraft.util.ResourceLocation;
 public class DwarfSentinelRender extends MobRenderer<DwarfSentinelEntity, DwarfSentinelModel> {
 
     private static final ResourceLocation TEXTURE = new ResourceLocation(
-            DwarfCivilisationMod.MOD_ID, "textures/entity/model_dwarf_basic_1.png");
+            DwarfCivilisationMod.MOD_ID, "textures/entity/dwarf_sentinel.png");
 
     public DwarfSentinelRender(EntityRendererManager renderManagerIn) {
         super(renderManagerIn, new DwarfSentinelModel(), 0.5f);

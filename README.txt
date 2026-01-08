@@ -252,7 +252,7 @@ attack anim
 
 
 
-
+FAIRE LA GENRATION DANS LE MONDE des MOB  (https://www.youtube.com/watch?v=6aOcWSldlYs&t=775s)
 
 war pig			(pig variant) (can be mount like a horse or pig) (can be armored) drop ham
 

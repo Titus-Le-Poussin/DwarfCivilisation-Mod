@@ -623,6 +623,27 @@ public class ModItems {
             () -> new ModSpawnEggItem(ModEntityTypes.DWARF_BARMAN, 0x879995, 0xFFD700,
                     new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
 
+    public static final RegistryObject<ModSpawnEggItem> DWARF_HERBORIST_SPAWN_EGG = ITEMS.register("dwarf_herborist_spawnegg",
+            () -> new ModSpawnEggItem(ModEntityTypes.DWARF_HERBORIST, 0x879995, 0x27AE60,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<ModSpawnEggItem> DWARF_FORGER_SPAWN_EGG = ITEMS.register("dwarf_forger_spawnegg",
+            () -> new ModSpawnEggItem(ModEntityTypes.DWARF_FORGER, 0x879995, 0xC56A1A,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<ModSpawnEggItem> DWARF_BERSERK_SPAWN_EGG = ITEMS.register("dwarf_berserk_spawnegg",
+            () -> new ModSpawnEggItem(ModEntityTypes.DWARF_BERSERK, 0x879995, 0x8B1E1E,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+    public static final RegistryObject<ModSpawnEggItem> DWARF_ALCHEMIST_SPAWN_EGG = ITEMS.register("dwarf_alchemist_spawnegg",
+            () -> new ModSpawnEggItem(ModEntityTypes.DWARF_ALCHEMIST, 0x879995, 0x27AE60,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
+
+    public static final RegistryObject<ModSpawnEggItem> KOBOLD_SIMPLE_SPAWN_EGG = ITEMS.register("simple_kobold_spawnegg",
+            () -> new ModSpawnEggItem(ModEntityTypes.KOBOLD_SIMPLE, 0x7F8C8D, 0xE67E22,
+                    new Item.Properties().group(ModItemGroup.DWARF_CIVILISATION_ITEM_GROUP)));
+
 
 
 

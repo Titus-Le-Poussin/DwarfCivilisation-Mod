@@ -10,7 +10,7 @@ import net.minecraft.util.ResourceLocation;
 public class DwarfWarriorRender extends MobRenderer<DwarfWarriorEntity, DwarfWarriorModel> {
 
     private static final ResourceLocation TEXTURE = new ResourceLocation(
-            DwarfCivilisationMod.MOD_ID, "textures/entity/model_dwarf2_basic_1.png");
+            DwarfCivilisationMod.MOD_ID, "textures/entity/dwarf_warrior.png");
 
     public DwarfWarriorRender(EntityRendererManager renderManagerIn) {
         super(renderManagerIn, new DwarfWarriorModel(), 0.5f);

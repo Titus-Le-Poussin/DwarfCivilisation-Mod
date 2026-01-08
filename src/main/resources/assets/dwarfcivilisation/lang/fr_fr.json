@@ -240,5 +240,11 @@
 
   "item.dwarfcivilisation.dwarf_warrior_spawnegg": "Oeuf de Guerrier Nain",
   "item.dwarfcivilisation.dwarf_barman_spawnegg": "Oeuf de Barman Nain",
-  "item.dwarfcivilisation.dwarf_sentinel_spawnegg": "Oeuf de Sentinel Nain"
+  "item.dwarfcivilisation.dwarf_sentinel_spawnegg": "Oeuf de Sentinel Nain",
+  "item.dwarfcivilisation.dwarf_herborist_spawnegg": "Oeuf d'Herboriste Nain",
+  "item.dwarfcivilisation.dwarf_berserk_spawnegg": "Oeuf de Berserk Nain",
+  "item.dwarfcivilisation.dwarf_forger_spawnegg": "Oeuf de Forgeron Nain",
+  "item.dwarfcivilisation.dwarf_alchemist_spawnegg": "Oeuf d'Alchemiste Nain",
+
+  "item.dwarfcivilisation.simple_kobold_spawnegg": "Oeuf de Kobold simple"
 }
