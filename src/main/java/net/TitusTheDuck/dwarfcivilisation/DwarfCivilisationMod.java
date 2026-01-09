@@ -9,6 +9,7 @@ import net.TitusTheDuck.dwarfcivilisation.entity.custom.ModEntityTypes;
 import net.TitusTheDuck.dwarfcivilisation.entity.render.*;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.TitusTheDuck.dwarfcivilisation.screen.DwarfFurnaceScreen;
+import net.TitusTheDuck.dwarfcivilisation.screen.DwarfWarriorScreen;
 import net.TitusTheDuck.dwarfcivilisation.tileentity.ModTileEntities;
 import net.TitusTheDuck.dwarfcivilisation.world.structure.ModStructures;
 import net.minecraft.block.Block;
@@ -87,6 +88,7 @@ public class DwarfCivilisationMod
 
 private void doClientStuff(final FMLClientSetupEvent event) {
     ScreenManager.registerFactory(ModContainers.DWARF_FURNACE_CONTAINER.get(), DwarfFurnaceScreen::new);
+    ScreenManager.registerFactory(ModContainers.DWARF_WARRIOR_CONTAINER.get(), DwarfWarriorScreen::new);
     event.enqueueWork(() -> {
         RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_TRAPDOOR.get(), RenderType.getCutout());
@@ -96,9 +98,9 @@ private void doClientStuff(final FMLClientSetupEvent event) {
     RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_SENTINEL.get(), DwarfSentinelRender::new);
     RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_BARMAN.get(), DwarfBarmanRender::new);
     RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_FORGER.get(), DwarfForgerRender::new);
-    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_HERBORIST.get(), DwarfHerboristEntity::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_HERBORIST.get(), DwarfHerboristRender::new);
     RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_ALCHEMIST.get(), DwarfAlchemistRender::new);
-    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_BERSERK.get(), DwarfBerserkEntity::new);
+    RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DWARF_BERSERK.get(), DwarfBerserkRender::new);
     RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.KOBOLD_SIMPLE.get(), KoboldRender::new);
 
 

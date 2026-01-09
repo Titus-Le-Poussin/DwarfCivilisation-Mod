@@ -79,4 +79,8 @@ public class DwarfForgerEntity extends VillagerEntity {
     public boolean canBeLeashedTo(PlayerEntity player) {
         return false;
     }
+
+    public boolean isForging() {
+        return false;
+    }
 }

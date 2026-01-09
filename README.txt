@@ -276,6 +276,8 @@ Gremlin de fonderie
 
 structures =
 
+Arêne naine
+
 Forge avec lave
 
 Armurie naine

@@ -10,6 +10,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+
 public class ModContainers {
     public static DeferredRegister<ContainerType<?>> CONTAINERS =
             DeferredRegister.create(ForgeRegistries.CONTAINERS, DwarfCivilisationMod.MOD_ID);
@@ -21,6 +22,10 @@ public class ModContainers {
                 World world = inv.player.getEntityWorld();
                 return new DwarfFurnaceContainer(windowId, world, pos, inv, inv.player);
             } )));
+
+    public static final RegistryObject<ContainerType<DwarfWarriorContainer>> DWARF_WARRIOR_CONTAINER =
+            CONTAINERS.register("dwarf_warrior_container",
+                    () -> IForgeContainerType.create(DwarfWarriorContainer::new));
 
         public static void register(IEventBus eventBus) {
             CONTAINERS.register(eventBus);
