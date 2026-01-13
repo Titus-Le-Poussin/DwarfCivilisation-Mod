@@ -9,6 +9,7 @@ import net.TitusTheDuck.dwarfcivilisation.entity.custom.ModEntityTypes;
 import net.TitusTheDuck.dwarfcivilisation.entity.render.*;
 import net.TitusTheDuck.dwarfcivilisation.item.ModItems;
 import net.TitusTheDuck.dwarfcivilisation.screen.DwarfFurnaceScreen;
+import net.TitusTheDuck.dwarfcivilisation.screen.DwarfHerboristScreen;
 import net.TitusTheDuck.dwarfcivilisation.screen.DwarfWarriorScreen;
 import net.TitusTheDuck.dwarfcivilisation.tileentity.ModTileEntities;
 import net.TitusTheDuck.dwarfcivilisation.world.structure.ModStructures;
@@ -89,6 +90,7 @@ public class DwarfCivilisationMod
 private void doClientStuff(final FMLClientSetupEvent event) {
     ScreenManager.registerFactory(ModContainers.DWARF_FURNACE_CONTAINER.get(), DwarfFurnaceScreen::new);
     ScreenManager.registerFactory(ModContainers.DWARF_WARRIOR_CONTAINER.get(), DwarfWarriorScreen::new);
+    ScreenManager.registerFactory(ModContainers.DWARF_HERBORIST_CONTAINER.get(), DwarfHerboristScreen::new);
     event.enqueueWork(() -> {
         RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_DOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.STEEL_TRAPDOOR.get(), RenderType.getCutout());

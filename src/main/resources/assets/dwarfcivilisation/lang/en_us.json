@@ -233,12 +233,14 @@
   "screen.dwarfcivilisation.dwarf_furnace": "Dwarf Furnace",
 
 
+
   "itemGroup.DwarfBlockTab": "Dwarf Block",
   "itemGroup.DwarfItemTab": "Dwarf Item",
   "itemGroup.DwarfFoodTab": "Dwarf Food",
 
 
   "container.dwarfcivilisation.dwarf_warrior": "Dwarf Warrior",
+  "container.dwarfcivilisation.dwarf_herborist": "Dwarf Herborist",
 
   "item.dwarfcivilisation.dwarf_warrior_spawnegg": "Dwarf Warrior Spawn Egg",
   "item.dwarfcivilisation.dwarf_sentinel_spawnegg": "Dwarf Sentinel Spawn Egg",

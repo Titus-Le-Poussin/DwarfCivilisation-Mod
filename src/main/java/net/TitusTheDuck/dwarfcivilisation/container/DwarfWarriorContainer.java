@@ -40,13 +40,14 @@ public class DwarfWarriorContainer extends Container {
         // Inventaire du joueur (3 lignes de 9 slots)
         for (int row = 0; row < 3; row++) {
             for (int col = 0; col < 9; col++) {
-                this.addSlot(new Slot(playerInventory, col + row * 9 + 9, 8 + col * 18, 84 + row * 18));
+                this.addSlot(new Slot(playerInventory, col + row * 9 + 9,
+                        8 + col * 18, 86 + row * 18));  // Change de 7 à 8
             }
         }
 
-        // Hotbar du joueur (1 ligne de 9 slots)
+        // Hotbar du joueur
         for (int col = 0; col < 9; col++) {
-            this.addSlot(new Slot(playerInventory, col, 8 + col * 18, 142));
+            this.addSlot(new Slot(playerInventory, col, 8 + col * 18, 144));  // Change de 7 à 8
         }
     }
 

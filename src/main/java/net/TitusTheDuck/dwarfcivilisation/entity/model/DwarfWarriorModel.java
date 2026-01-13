@@ -2,9 +2,11 @@ package net.TitusTheDuck.dwarfcivilisation.entity.model;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
+import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.TitusTheDuck.dwarfcivilisation.entity.custom.DwarfWarriorEntity;
+import net.minecraft.util.HandSide;
 
 public class DwarfWarriorModel extends EntityModel<DwarfWarriorEntity> {
 
@@ -157,10 +159,75 @@ public class DwarfWarriorModel extends EntityModel<DwarfWarriorEntity> {
 		root.render(matrixStack, buffer, packedLight, packedOverlay, red, green, blue, alpha);
 	}
 
+	public void translateHand(HandSide side, MatrixStack matrixStack) {
+		ModelRenderer arm = side == HandSide.RIGHT ? this.right_arm : this.left_arm;
+
+		// Translate vers la position du bras
+		if (side == HandSide.RIGHT) {
+			matrixStack.translate(-0.3125D, 0.125D, 0.0D);
+		} else {
+			matrixStack.translate(0.3125D, 0.125D, 0.0D);
+		}
+	}
+
+	// Garde la méthode existante
+	public void copyModelAttributesTo(DwarfWarriorModel target) {
+		target.isChild = this.isChild;
+		target.isSitting = this.isSitting;
+		target.swingProgress = this.swingProgress;
+
+		// Copie les rotations
+		target.head.copyModelAngles(this.head);
+		target.body.copyModelAngles(this.body);
+		target.right_arm.copyModelAngles(this.right_arm);
+		target.left_arm.copyModelAngles(this.left_arm);
+		target.right_leg.copyModelAngles(this.right_leg);
+		target.left_leg.copyModelAngles(this.left_leg);
+	}
+
+	// AJOUTE cette nouvelle méthode pour BipedModel
+	public void copyModelAttributesTo(BipedModel<?> target) {
+		target.isChild = this.isChild;
+		target.isSitting = this.isSitting;
+		target.swingProgress = this.swingProgress;
+
+		// Copie les rotations vers le BipedModel
+		target.bipedHead.copyModelAngles(this.head);
+		target.bipedBody.copyModelAngles(this.body);
+		target.bipedRightArm.copyModelAngles(this.right_arm);
+		target.bipedLeftArm.copyModelAngles(this.left_arm);
+		target.bipedRightLeg.copyModelAngles(this.right_leg);
+		target.bipedLeftLeg.copyModelAngles(this.left_leg);
+	}
+
 	// Fonction helper pour définir les rotations
 	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
 		modelRenderer.rotateAngleX = x;
 		modelRenderer.rotateAngleY = y;
 		modelRenderer.rotateAngleZ = z;
+	}
+	// À ajouter à la fin de DwarfWarriorModel.java
+	public ModelRenderer getHead() {
+		return this.head;
+	}
+
+	public ModelRenderer getBody() {
+		return this.body;
+	}
+
+	public ModelRenderer getRightArm() {
+		return this.right_arm;
+	}
+
+	public ModelRenderer getLeftArm() {
+		return this.left_arm;
+	}
+
+	public ModelRenderer getRightLeg() {
+		return this.right_leg;
+	}
+
+	public ModelRenderer getLeftLeg() {
+		return this.left_leg;
 	}
 }

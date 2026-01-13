@@ -27,6 +27,10 @@ public class ModContainers {
             CONTAINERS.register("dwarf_warrior_container",
                     () -> IForgeContainerType.create(DwarfWarriorContainer::new));
 
+    public static final RegistryObject<ContainerType<DwarfHerboristContainer>> DWARF_HERBORIST_CONTAINER =
+            CONTAINERS.register("dwarf_herborist_container",
+                    () -> IForgeContainerType.create(DwarfHerboristContainer::new));
+
         public static void register(IEventBus eventBus) {
             CONTAINERS.register(eventBus);
         }
